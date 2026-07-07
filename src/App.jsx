@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import ProductsPage from './pages/ProductsPage';
+import GroutPage from './components/GroutPage';
 
 function Placeholder({ title }) {
   return (
@@ -24,6 +25,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/products/grout" element={<GroutPage />} />
         <Route path="/products/:slug" element={<Placeholder title="Продукт" />} />
         <Route path="/references" element={<Placeholder title="Референції" />} />
         <Route path="/innovations" element={<Placeholder title="Інновації" />} />
