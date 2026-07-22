@@ -2,6 +2,7 @@ import React from 'react';
 import HeroSlider from '../components/HeroSlider';
 import ReferencesSlider from '../components/ReferencesSlider';
 
+
 const PRODUCTS_ROW1 = [
   { href: '/products/grout', img: 'https://www.pagel.com/wp-content/uploads/2020/12/wp_verguss.jpg', label: 'Заливальні розчини' },
   { href: '/products/concrete-repair', img: 'https://www.pagel.com/wp-content/uploads/2018/12/pg_cr.jpg', label: 'Ремонт бетону' },
@@ -46,12 +47,11 @@ export default function HomePage() {
 
   return (
     <main className="site-inner">
-      <HeroSlider />
 
       <div className="breadcrumbs-outer">
         <div className="wrap">
           <div className="breadcrumb">
-            <a href="/">&#8962; PAGEL</a>
+            <a href="/">&#8962; N-GROUP</a>
           </div>
         </div>
       </div>
@@ -107,64 +107,16 @@ export default function HomePage() {
       </article>
 
       {/* Sales Section */}
-      <section className="sales-section" id="lp_sales">
+    <section className="sales-section" id="lp_sales">
         <div className="wrap">
           <div className="sales-grid">
             <div className="sales-col">
-              <h2>Відділ іноземних продажів</h2>
-              <h4>Daniel Valaev</h4>
-              <p>
-                Тел.: <a href="tel:+491705754751">+49 170 5754751</a><br />
-                <a href="mailto:valaev@pagel.de">valaev@pagel.de</a>
-              </p>
-              <h3>Обробка іноземних замовлень</h3>
-              <h4>Martina Linke</h4>
-              <p>
-                Тел.: <a href="tel:+492016850423">+49 201 68504-23</a><br />
-                <a href="mailto:linke@pagel.de">linke@pagel.de</a>
-              </p>
-              <h3>PAGEL Technische Mörtel GmbH &amp; Co. KG</h3>
-              <p><a href="https://www.pagel.com/all/pdf/pagel_tm_ueberblick_de.pdf" target="_blank" rel="noreferrer">Інформаційний аркуш</a></p>
-            </div>
-
-            <div className="sales-col">
-              <h2>PAGEL Spezial-Beton GmbH &amp; Co. KG</h2>
-              <p>
-                Wolfsbankring 9<br />
-                D-45355 Essen<br />
-                Тел.: <a href="tel:+49201685040">+49 201 68504-0</a><br />
-                Факс: <a href="tel:+492016850431">+49 201 68504-31</a><br />
-                <a href="mailto:info@pagel.com">info@pagel.com</a>
-              </p>
-              <h3>Години роботи</h3>
-              <h4>Офіс</h4>
-              <p>Пн–Чт: 7:30–12:00 / 12:30–16:30<br />Пт: 7:30–12:00 / 12:30–14:00</p>
-              <h4>Відвантаження</h4>
-              <p>Пн–Чт: 6:00–16:00 (закриття замовлень: 15:30)<br />Пт: 6:00–14:30 (закриття замовлень: 14:00)</p>
-            </div>
-
-            <div className="sales-col">
-              <h2>Відділ продажів Німеччина</h2>
-              <h4>Замовлення та розподіл</h4>
-              <p>
-                Тел.: <a href="tel:+492016850450">+49 201 68504-50</a><br />
-                <a href="mailto:bestellung@pagel.de">bestellung@pagel.de</a>
-              </p>
-              <h3>Внутрішні продажі та технічні консультації</h3>
-              <h4>Arthur Brozyna</h4>
-              <p>
-                Тел.: <a href="tel:+492016850420">+49 201 68504-20</a><br />
-                <a href="mailto:brozyna@pagel.de">brozyna@pagel.de</a>
-              </p>
-              <h4>Stephan Roos</h4>
-              <p>
-                Тел.: <a href="tel:+492016850429">+49 201 68504-29</a><br />
-                <a href="mailto:roos@pagel.de">roos@pagel.de</a>
-              </p>
+              <h2>ми не знаємо хз</h2>
             </div>
           </div>
         </div>
       </section>
     </main>
+
   );
 }

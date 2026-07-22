@@ -8,10 +8,10 @@ export default function Header() {
       <div className="wrap">
         <div className="title-area">
           <h1 className="site-title">
-            <a href="https://www.pagel.com/uk/" aria-label="PAGEL Спеціальний Бетон — на головну">
-              PAGEL Спеціальний Бетон
-            </a>
-          </h1>
+             <a href="/" aria-label="PAGEL Спеціальний Бетон — на головну">
+                 PAGEL Спеціальний Бетон
+                </a>
+            </h1>
         </div>
 
         <nav className="nav-header" aria-label="Головне меню">
@@ -24,7 +24,7 @@ export default function Header() {
             </li>
 
             <li>
-              <a href="#">Компанія</a>
+              <a href="/#lp_sales">Про нас</a>
             </li>
 
             <li><a href="/sales">Продажі</a></li>

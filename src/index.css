@@ -1,9 +1,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   font-size: 16px;
-  color: #1a1a1a;
+  color: #5D6970;
   background: #fff;
   line-height: 1.6;
 }
@@ -20,7 +20,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ── Header ── */
 .site-header {
   background: #fff;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #E7ECFF;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -29,17 +29,17 @@ button { font-family: inherit; cursor: pointer; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 64px;
+  height: 150px;
 }
 .site-title a {
   display: block;
-  width: 140px;
-  height: 40px;
-  background: url('https://www.pagel.com/wp-content/uploads/2024/09/pagel_logo.svg') no-repeat center / contain;
+  width: 320px;
+  height: 140px;
+  background: url('./components/logo.png') no-repeat center / contain;
   text-indent: -9999px;
   overflow: hidden;
+  flex-shrink: 0;
 }
-
 /* ── Nav ── */
 .nav-header ul {
   display: flex;
@@ -52,11 +52,11 @@ button { font-family: inherit; cursor: pointer; }
   padding: 8px 14px;
   font-size: 14px;
   font-weight: 500;
-  color: #1a1a1a;
+  color: #091133;
   border-radius: 6px;
   transition: background 0.15s;
 }
-.nav-header > ul > li > a:hover { background: #f5f5f5; }
+.nav-header > ul > li > a:hover { background: #E7ECFF; }
 
 .sub-menu {
   display: none;
@@ -64,7 +64,7 @@ button { font-family: inherit; cursor: pointer; }
   top: calc(100% + 4px);
   left: 0;
   background: #fff;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #E7ECFF;
   border-radius: 8px;
   min-width: 220px;
   padding: 6px;
@@ -77,10 +77,10 @@ button { font-family: inherit; cursor: pointer; }
   padding: 8px 12px;
   font-size: 13px;
   border-radius: 5px;
-  color: #333;
+  color: #091133;
   transition: background 0.12s;
 }
-.sub-menu a:hover { background: #f5f5f5; }
+.sub-menu a:hover { background: #E7ECFF; }
 .sub-menu .sub-menu { top: 0; left: 100%; }
 
 .lang-item a {
@@ -89,27 +89,27 @@ button { font-family: inherit; cursor: pointer; }
   gap: 6px;
   padding: 6px 10px;
   font-size: 13px;
-  border: 1px solid #ddd;
+  border: 1px solid #6F7CB2;
   border-radius: 6px;
-  background: #fafafa;
+  background: #E7ECFF;
 }
 .lang-flag { width: 18px; height: 13px; object-fit: cover; border-radius: 2px; }
 
 /* ── Breadcrumb ── */
 .breadcrumbs-outer {
-  background: #f7f7f7;
-  border-bottom: 1px solid #eee;
+  background: #007DCC;
+  border-bottom: 1px solid #007DCC;
   padding: 8px 0;
 }
 .breadcrumbs-outer .wrap {
   font-size: 13px;
-  color: #666;
+  color: #5D6970;
 }
 .breadcrumb { display: flex; align-items: center; gap: 6px; }
-.breadcrumb a { color: #c8102e; }
+.breadcrumb a { color: #111B47; }
 
 /* ── Hero Slider ── */
-.hero-slider-section { position: relative; overflow: hidden; background: #1a2332; }
+.hero-slider-section { position: relative; overflow: hidden; background: #111B47; }
 .hero-track {
   display: flex;
   transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
@@ -166,7 +166,7 @@ button { font-family: inherit; cursor: pointer; }
 .hero-btn {
   display: inline-block;
   padding: 12px 28px;
-  background: #c8102e;
+  background: #111B47;
   color: #fff;
   font-size: 14px;
   font-weight: 600;
@@ -176,7 +176,7 @@ button { font-family: inherit; cursor: pointer; }
   transition: background 0.2s;
   text-decoration: none;
 }
-.hero-btn:hover { background: #a50d26; }
+.hero-btn:hover { background: #091133; }
 
 /* Dots */
 .hero-dots {
@@ -184,7 +184,7 @@ button { font-family: inherit; cursor: pointer; }
   justify-content: center;
   gap: 8px;
   padding: 16px 0;
-  background: #1a2332;
+  background: #111B47;
 }
 .hero-dot {
   width: 9px;
@@ -234,7 +234,7 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #1a1a1a;
+  color: #091133;
 }
 
 /* ── Product Grid ── */
@@ -258,7 +258,7 @@ button { font-family: inherit; cursor: pointer; }
   margin-top: 10px;
   font-size: 14px;
   font-weight: 500;
-  color: #333;
+  color: #091133;
 }
 
 /* ── References Slider ── */
@@ -275,21 +275,21 @@ button { font-family: inherit; cursor: pointer; }
   align-items: center;
   gap: 6px;
   font-size: 13px;
-  color: #c8102e;
+  color: #111B47;
   font-weight: 500;
-  border: 1px solid #c8102e;
+  border: 1px solid #111B47;
   padding: 6px 14px;
   border-radius: 5px;
   transition: background 0.15s, color 0.15s;
   text-decoration: none;
 }
-.references-more:hover { background: #c8102e; color: #fff; }
+.references-more:hover { background: #111B47; color: #fff; }
 
 .bb-design-slider {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  background: #111;
+  background: #091133;
   height: 520px;
 }
 .bb-main-slide {
@@ -392,7 +392,7 @@ button { font-family: inherit; cursor: pointer; }
 .bb-slider-next { right: 22px; }
 
 /* ── Separator ── */
-.fl-separator { border-top: 1px solid #e5e5e5; margin: 8px 0 32px; }
+.fl-separator { border-top: 1px solid #E7ECFF; margin: 8px 0 32px; }
 
 /* ── Further Topics ── */
 .further-grid {
@@ -403,7 +403,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Sales Section ── */
 .sales-section {
-  background: #1a2332 url('https://www.pagel.com/wp-content/uploads/2018/11/pg_kontakt.jpg') center / cover;
+  background: #111B47 url('https://www.pagel.com/wp-content/uploads/2018/11/pg_kontakt.jpg') center / cover;
   padding: 60px 0;
   color: #fff;
   position: relative;
@@ -412,7 +412,7 @@ button { font-family: inherit; cursor: pointer; }
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(20, 30, 50, 0.82);
+  background: #007DCC;
 }
 .sales-section .wrap { position: relative; z-index: 1; }
 .sales-grid {
@@ -429,9 +429,9 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Footer ── */
 .footer-widgets {
-  background: #f7f7f7;
+  background: #E7ECFF;
   padding: 40px 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #E7ECFF;
 }
 .footer-widgets .wrap {
   display: grid;
@@ -447,22 +447,22 @@ button { font-family: inherit; cursor: pointer; }
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  background: #e5e5e5;
-  color: #333;
+  background: #E7ECFF;
+  color: #091133;
   font-size: 20px;
   transition: background 0.15s, color 0.15s;
   text-decoration: none;
 }
-.footer-social a:hover { background: #c8102e; color: #fff; }
+.footer-social a:hover { background: #111B47; color: #fff; }
 .footer-nav { display: flex; gap: 32px; }
-.footer-nav-col h4 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: #333; text-transform: uppercase; letter-spacing: 0.04em; }
-.footer-nav-col a { display: block; font-size: 13px; color: #555; margin-bottom: 6px; }
-.footer-nav-col a:hover { color: #c8102e; }
+.footer-nav-col h4 { font-size: 13px; font-weight: 700; margin-bottom: 10px; color: #091133; text-transform: uppercase; letter-spacing: 0.04em; }
+.footer-nav-col a { display: block; font-size: 13px; color: #5D6970; margin-bottom: 6px; }
+.footer-nav-col a:hover { color: #111B47; }
 .possehl-logo { margin-top: 16px; }
 .possehl-logo img { height: 36px; width: auto; }
 
 .site-footer {
-  background: #1a1a1a;
+  background: #091133;
   color: rgba(255,255,255,0.55);
   font-size: 12px;
   padding: 16px 0;
@@ -476,15 +476,15 @@ button { font-family: inherit; cursor: pointer; }
 .search-wrap input {
   flex: 1;
   padding: 10px 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #6F7CB2;
   border-radius: 6px;
   font-size: 14px;
   outline: none;
 }
-.search-wrap input:focus { border-color: #c8102e; }
+.search-wrap input:focus { border-color: #111B47; }
 .search-wrap button {
   padding: 10px 20px;
-  background: #c8102e;
+  background: #111B47;
   color: #fff;
   border: none;
   border-radius: 6px;
