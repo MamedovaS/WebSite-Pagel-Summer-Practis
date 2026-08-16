@@ -12,7 +12,10 @@ import InnovationsPage from './pages/InnovationsPage';
 import ReferencesPage from './pages/ReferencesPage';
 import IsoPage from './pages/IsoPage';
 import QualityAssurancePage from './pages/QualityAssurancePage';
-
+import SalesPage from './pages/SalesPage';
+import ReactionResinsPage from './pages/ReactionsPage';
+import PagelEvolinePage from './pages/PagelEvolinePage';
+import SearchResultsPage from './components/SearchResultsPage'
 function Placeholder({ title }) {
   return (
     <main className="site-inner">
@@ -32,13 +35,13 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
-
+        <Route path="/search" element={<SearchResultsPage />} />
         {/* Категорії */}
         <Route path="/products/grout" element={<GroutPage />} />
         <Route path="/products/concrete-repair" element={<ConcreteRepairPage />} />
         <Route path="/products/industrial-floors" element={<IndustrialFloorsPage />} />
-        <Route path="/products/reaction-resins" element={<Placeholder title="Реакційні смоли" />} />
-
+        <Route path="/products/reaction-resins" element={<ReactionResinsPage />} />
+        <Route path="/products/evoline" element={<PagelEvolinePage />} />
         {/* Універсальний маршрут для всіх продуктів */}
         <Route path="/products/:category/:slug" element={<ProductPage />} />
 
@@ -50,7 +53,7 @@ export default function App() {
         <Route path="/innovations" element={<InnovationsPage />} />
         <Route path="/iso9001-iso14001" element={<IsoPage />} />
         <Route path="/quality-assurance" element={<QualityAssurancePage />} />
-        <Route path="/sales" element={<Placeholder title="Продажі" />} />
+        <Route path="/sales" element={<SalesPage />} />
         <Route path="/contact" element={<Placeholder title="Контакти" />} />
         <Route path="/downloads" element={<Placeholder title="Завантаження" />} />
         <Route path="/site-notice" element={<Placeholder title="Правова інформація" />} />

@@ -1,6 +1,264 @@
 // src/data/products.js
 
 export const productsData = {
+   'eh1': {
+    id: 'eh1',
+    slug: 'eh1',
+    title: 'EH1 Епоксидна ґрунтовка/сполучний матеріал',
+    subtitle: 'Епоксидна ґрунтовка та сполучний матеріал для підготовки основи перед нанесенням ремонтних розчинів',
+    category: 'reaction-resins',
+    subcategory: 'primer-binder',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Ґрунтовка на основі епоксидної смоли',
+      'Придатна як сполучний місток перед ремонтними розчинами',
+      'TODO: додати дані з технічного паспорта (витрата, час висихання)'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH1)'
+    ],
+    properties: [
+      'Хороша адгезія до бетонної основи',
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Ґрунтування основи перед нанесенням ремонтних розчинів',
+      'Захист поверхонь бетону',
+      'Підготовка забруднених оливою або вологих основ'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh1-epoxidharz-grundierung-bindemittel/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH1 Епоксидна ґрунтовка/сполучний матеріал' }
+    ]
+  },
+ 
+  'eh115': {
+    id: 'eh115',
+    slug: 'eh115',
+    title: 'EH115 Епоксидна ґрунтовка/сполучний матеріал',
+    subtitle: 'Епоксидна ґрунтовка та сполучний матеріал з підвищеними характеристиками для складних основ',
+    category: 'reaction-resins',
+    subcategory: 'primer-binder',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Ґрунтовка на основі епоксидної смоли',
+      'Для складних основ (забруднені оливою, вологі)',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH115)'
+    ],
+    properties: [
+      'Хороша адгезія',
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Ґрунтування складних основ перед ремонтом',
+      'Спеціальні ґрунтовки для вологих і забруднених поверхонь'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh115-epoxidharz-grundierung-bindemittel/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH115 Епоксидна ґрунтовка/сполучний матеріал' }
+    ]
+  },
+ 
+  // --- Епоксидний розчин ---
+  'eh2': {
+    id: 'eh2',
+    slug: 'eh2',
+    title: 'EH2 Епоксидний розчин',
+    subtitle: 'Епоксидний розчин для ремонту та захисту бетонних поверхонь',
+    category: 'reaction-resins',
+    subcategory: 'mortar',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Розчин на основі епоксидної смоли',
+      'Висока хімічна стійкість',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH2)'
+    ],
+    properties: [
+      'Висока механічна міцність',
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Ремонт бетонних поверхонь',
+      'Захист від хімічно агресивного середовища'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh2-epoxidharzmoertel/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH2 Епоксидний розчин' }
+    ]
+  },
+ 
+  'eh192': {
+    id: 'eh192',
+    slug: 'eh192',
+    title: 'EH192 Епоксидний розчин',
+    subtitle: 'Епоксидний розчин з підвищеною зносостійкістю для промислових поверхонь',
+    category: 'reaction-resins',
+    subcategory: 'mortar',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Розчин на основі епоксидної смоли',
+      'Підвищена зносостійкість',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH192)'
+    ],
+    properties: [
+      'Висока зносостійкість',
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Промислові підлоги та поверхні з високим навантаженням',
+      'Ремонт та захист бетону'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh192-epoxidharzmoertel/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH192 Епоксидний розчин' }
+    ]
+  },
+ 
+  // --- Епоксидний розчин для заливання ---
+  'eh196r': {
+    id: 'eh196r',
+    slug: 'eh196r',
+    title: 'EH196R Епоксидний розчин для заливання',
+    subtitle: 'Епоксидний розчин для заливання прецизійного обладнання',
+    category: 'reaction-resins',
+    subcategory: 'grout',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Заливальний розчин на основі епоксидної смоли',
+      'Висока міцність зчеплення',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH196R)'
+    ],
+    properties: [
+      'Висока міцність',
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Заливання прецизійного обладнання',
+      'Промислові конструкції з підвищеними вимогами до міцності'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh196r-epoxidharzverguss/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH196R Епоксидний розчин для заливання' }
+    ]
+  },
+ 
+  'eh196s': {
+    id: 'eh196s',
+    slug: 'eh196s',
+    title: 'EH196S Епоксидний розчин для заливання',
+    subtitle: 'Епоксидний розчин для заливання зі спеціальними властивостями (варіант S)',
+    category: 'reaction-resins',
+    subcategory: 'grout',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Заливальний розчин на основі епоксидної смоли',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH196S)'
+    ],
+    properties: [
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [
+      'TODO: клас відповідно до EN 1504 (уточнити)'
+    ],
+    applications: [
+      'Заливання обладнання зі спеціальними вимогами',
+      'Промислові конструкції'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh196s-epoxidharzverguss/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH196S Епоксидний розчин для заливання' }
+    ]
+  },
+ 
+  // --- Допоміжні засоби для нанесення ---
+  'eh-cleaner': {
+    id: 'eh-cleaner',
+    slug: 'eh-cleaner',
+    title: 'EH Очищувач/розчинник',
+    subtitle: 'Очищувач та розчинник для інструментів і поверхонь при роботі з епоксидними смолами',
+    category: 'reaction-resins',
+    subcategory: 'application-aids',
+    image: 'https://www.pagel.com/wp-content/uploads/2020/12/reaktionsharze.jpg',
+    features: [
+      'Допоміжний засіб для роботи з епоксидними смолами',
+      'Очищення інструментів та поверхонь',
+      'TODO: додати дані з технічного паспорта'
+    ],
+    technicalData: [
+      'TODO: уточнити з технічного паспорта PAGEL (EH Reiniger/Verdünner)'
+    ],
+    properties: [
+      'TODO: доповнити після отримання тех. паспорта'
+    ],
+    classification: [],
+    applications: [
+      'Очищення інструментів після роботи з епоксидними смолами',
+      'Розведення епоксидних складів'
+    ],
+    downloads: [
+      { label: 'Сторінка продукту (DE)', url: 'https://www.pagel.com/de/produkte/reaktionsharze/eh-reiniger-verduenner/' }
+    ],
+    breadcrumbs: [
+      { label: 'Продукти', link: '/products' },
+      { label: 'Реакційні смоли', link: '/products/reaction-resins' },
+      { label: 'EH Очищувач/розчинник' }
+    ]
+  },
+ 
   // ============================================
   // КАТЕГОРІЯ: РОЗЧИН ДЛЯ ЗАЛИВАННЯ (GROUT)
   // ============================================

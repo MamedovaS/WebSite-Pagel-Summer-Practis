@@ -2,18 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getProductsByCategoryAndSubcategory } from '../data/products';
+import './1.css';
 
-const ConcreteRepairPage = () => {
+const IndustrialFloorsPage = () => {
   const breadcrumbItems = [
     { label: 'Продукти', link: '/products' },
-    { label: 'Ремонт бетону' }
+    { label: 'Промислові підлоги' }
   ];
 
-  // Отримуємо всі продукти з категорії concrete-repair
-  const corrosionProducts = getProductsByCategoryAndSubcategory('concrete-repair', 'corrosion-protection');
-  const structuralProducts = getProductsByCategoryAndSubcategory('concrete-repair', 'structural');
-  const repairProducts = getProductsByCategoryAndSubcategory('concrete-repair', 'repair');
-  const potableWaterProducts = getProductsByCategoryAndSubcategory('concrete-repair', 'potable-water');
+  const categories = [
+    {
+      title: 'Промислові підлоги та покриття:',
+      products: getProductsByCategoryAndSubcategory('industrial-floors', 'floor')
+    },
+    {
+      title: 'Ремонт бетону та основи:',
+      products: getProductsByCategoryAndSubcategory('industrial-floors', 'repair-concrete')
+    }
+  ];
 
   return (
     <>
@@ -24,27 +30,44 @@ const ConcreteRepairPage = () => {
             <main className="content">
               <article className="entry">
                 <div className="entry-content">
-                  <h1>Ремонт бетону</h1>
-                  <p>Продукти PAGEL для ремонту та відновлення бетону пропонують широкий спектр рішень — від швидких ремонтних робіт до конструктивного відновлення конструкцій.</p>
-                  
-                  {/* Тут можна додати категорії продуктів для ремонту бетону */}
-                  <div style={{ marginTop: 30 }}>
-                    <h2>Категорії:</h2>
-                    <ul>
-                      {corrosionProducts.map(p => (
-                        <li key={p.id}><Link to={`/products/concrete-repair/${p.slug}`}>{p.title}</Link></li>
-                      ))}
-                      {structuralProducts.map(p => (
-                        <li key={p.id}><Link to={`/products/concrete-repair/${p.slug}`}>{p.title}</Link></li>
-                      ))}
-                      {repairProducts.map(p => (
-                        <li key={p.id}><Link to={`/products/concrete-repair/${p.slug}`}>{p.title}</Link></li>
-                      ))}
-                      {potableWaterProducts.map(p => (
-                        <li key={p.id}><Link to={`/products/concrete-repair/${p.slug}`}>{p.title}</Link></li>
-                      ))}
-                    </ul>
+                  <div className="fl-module fl-module-heading">
+                    <h1 className="fl-heading">
+                      <span className="fl-heading-text">Промислові підлоги та зони руху</span>
+                    </h1>
                   </div>
+
+                  <div className="fl-module fl-module-rich-text">
+                    <div className="fl-rich-text">
+                      <p>
+                        Промислові підлоги піддаються найвищим механічним навантаженням. 
+                        PAGEL пропонує високоміцні продукти з підвищеною зносостійкістю.
+                      </p>
+                    </div>
+                  </div>
+
+                  <hr className="fl-separator" />
+
+                  {categories.map((cat, idx) => (
+                    cat.products && cat.products.length > 0 && (
+                      <section key={idx} className="fl-module" style={{ marginBottom: '32px' }}>
+                        <h2 className="section-heading">{cat.title}</h2>
+                        <div className="fl-post-grid">
+                          {cat.products.map(p => (
+                            <div key={p.id} className="fl-post-column">
+                              <div className="fl-post-grid-post">
+                                <h3 className="fl-post-grid-title">
+                                  <Link to={`/products/industrial-floors/${p.slug}`}>
+                                    {p.title}
+                                  </Link>
+                                </h3>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  ))}
+
                 </div>
               </article>
             </main>
@@ -55,4 +78,4 @@ const ConcreteRepairPage = () => {
   );
 };
 
-export default ConcreteRepairPage;
+export default IndustrialFloorsPage;

@@ -1,0 +1,542 @@
+/* =========================================================
+   PAGEL — спільні стилі для fl-* компонентів та сторінок продуктів
+   Використовується в: GroutPage, ProductPage, ProductsPage,
+   IndustrialFloorsPage
+   ========================================================= */
+
+:root {
+  --pagel-red: #c8102e;
+  --pagel-dark: #1a1a1a;
+  --pagel-text: #333;
+  --pagel-muted: #666;
+  --pagel-border: #e5e5e5;
+  --pagel-bg-light: #f7f7f7;
+  --pagel-max-width: 1140px;
+  --pagel-gap: 24px;
+  --pagel-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--pagel-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* -----------------------------------------------------------
+   Layout wrappers (site-inner / wrap / content-sidebar-wrap)
+   ----------------------------------------------------------- */
+
+.site-inner {
+  width: 100%;
+}
+
+.wrap {
+  max-width: var(--pagel-max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content-sidebar-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 32px 0 64px;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry-content {
+  width: 100%;
+}
+
+/* -----------------------------------------------------------
+   Breadcrumbs
+   ----------------------------------------------------------- */
+
+.breadcrumbs-outer {
+  background: var(--pagel-bg-light);
+  border-bottom: 1px solid var(--pagel-border);
+}
+
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 13px;
+  color: var(--pagel-muted);
+}
+
+.breadcrumb a {
+  color: var(--pagel-red);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* -----------------------------------------------------------
+   fl-row / fl-row-content — Beaver Builder-style rows
+   ----------------------------------------------------------- */
+
+.fl-row {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.fl-row-fixed-width .fl-row-content {
+  max-width: var(--pagel-max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.fl-row-bg-none {
+  background: none;
+}
+
+.fl-row-content-wrap {
+  position: relative;
+}
+
+/* -----------------------------------------------------------
+   fl-col-group / fl-col — column grid
+   ----------------------------------------------------------- */
+
+.fl-col-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--pagel-gap);
+  margin-bottom: var(--pagel-gap);
+}
+
+.fl-col-group:last-child {
+  margin-bottom: 0;
+}
+
+.fl-col-group-nested {
+  width: 100%;
+}
+
+.fl-col {
+  flex: 1 1 0;
+  min-width: 240px;
+}
+
+.fl-col-small {
+  flex: 1 1 300px;
+}
+
+.fl-col-bg-color {
+  background: transparent;
+}
+
+.fl-col-has-cols {
+  flex-basis: 100%;
+}
+
+/* -----------------------------------------------------------
+   fl-module — generic module wrapper
+   ----------------------------------------------------------- */
+
+.fl-module {
+  margin-bottom: 16px;
+}
+
+.fl-module:last-child {
+  margin-bottom: 0;
+}
+
+/* Headings */
+
+.fl-module-heading .fl-heading {
+  margin: 0 0 12px;
+  font-weight: 700;
+  color: var(--pagel-dark);
+  line-height: 1.25;
+}
+
+h1.fl-heading .fl-heading-text {
+  font-size: clamp(26px, 4vw, 38px);
+}
+
+h2.fl-heading .fl-heading-text {
+  font-size: clamp(20px, 2.6vw, 26px);
+}
+
+.fl-heading-text {
+  display: inline-block;
+}
+
+/* Rich text */
+
+.fl-module-rich-text .fl-rich-text {
+  font-size: 15px;
+  color: var(--pagel-text);
+}
+
+.fl-rich-text p {
+  margin: 0 0 14px;
+}
+
+.fl-rich-text p:last-child {
+  margin-bottom: 0;
+}
+
+.fl-rich-text ul {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+
+.fl-rich-text li {
+  margin-bottom: 6px;
+}
+
+.fl-rich-text h2 {
+  font-size: 20px;
+  color: var(--pagel-dark);
+  margin: 0 0 12px;
+}
+
+.fl-rich-text a {
+  color: var(--pagel-red);
+}
+
+/* Photo module */
+
+.fl-module-photo .fl-photo {
+  text-align: center;
+}
+
+.fl-photo-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fl-photo-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--pagel-radius);
+  display: block;
+}
+
+.fl-photo-caption {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--pagel-dark);
+  text-align: center;
+}
+
+.hover-zoom-in .fl-photo-img {
+  transition: transform 0.25s ease;
+}
+
+.hover-zoom-in:hover .fl-photo-img {
+  transform: scale(1.04);
+}
+
+.fl-animation.fl-fade-in {
+  animation: fl-fade-in 0.5s ease both;
+}
+
+@keyframes fl-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* -----------------------------------------------------------
+   fl-post-grid — product card grid (used for product lists)
+   ----------------------------------------------------------- */
+
+.fl-post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.fl-post-column {
+  height: 100%;
+}
+
+.fl-post-grid-post {
+  height: 100%;
+  padding: 16px 18px;
+  border: 1px solid var(--pagel-border);
+  border-radius: var(--pagel-radius);
+  background: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fl-post-grid-post:hover {
+  border-color: var(--pagel-red);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.fl-post-grid-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fl-post-grid-title a {
+  color: var(--pagel-dark);
+  text-decoration: none;
+}
+
+.fl-post-grid-title a:hover {
+  color: var(--pagel-red);
+}
+
+/* -----------------------------------------------------------
+   fl-separator
+   ----------------------------------------------------------- */
+
+.fl-separator {
+  width: 100%;
+  height: 1px;
+  background: var(--pagel-border);
+  margin: 32px 0;
+  border: none;
+}
+
+/* -----------------------------------------------------------
+   fl-button
+   ----------------------------------------------------------- */
+
+.fl-button-wrap {
+  display: flex;
+}
+
+.fl-button-width-full {
+  width: 100%;
+}
+
+.fl-button-left {
+  justify-content: flex-start;
+}
+
+.fl-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: var(--pagel-red);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: var(--pagel-radius);
+  transition: background 0.2s ease;
+}
+
+.fl-button:hover {
+  background: #a50d25;
+  color: #fff;
+}
+
+.fl-button-icon {
+  font-size: 12px;
+}
+
+/* -----------------------------------------------------------
+   fl-accordion (used in ProductPage)
+   ----------------------------------------------------------- */
+
+.fl-accordion {
+  border: 1px solid var(--pagel-border);
+  border-radius: var(--pagel-radius);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.fl-accordion-item {
+  background: #fff;
+}
+
+.fl-accordion-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--pagel-dark);
+  background: var(--pagel-bg-light);
+}
+
+.fl-accordion-button:hover {
+  background: #eee;
+}
+
+.fl-accordion-button-icon {
+  color: var(--pagel-red);
+}
+
+.fl-accordion-content {
+  padding: 14px 16px;
+  font-size: 14px;
+}
+
+.fl-accordion-content a {
+  color: var(--pagel-red);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.fl-accordion-content a:hover {
+  text-decoration: underline;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* -----------------------------------------------------------
+   Downloads block (PDF links) — ProductPage
+   ----------------------------------------------------------- */
+
+.fl-module-rich-text div[style*="border"] a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--pagel-dark);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.fl-module-rich-text div[style*="border"] a i {
+  color: var(--pagel-red);
+}
+
+.fl-module-rich-text div[style*="border"] a:hover {
+  color: var(--pagel-red);
+}
+
+/* -----------------------------------------------------------
+   ProductsPage — grid overview, search, cards
+   ----------------------------------------------------------- */
+
+.section-heading {
+  font-size: clamp(20px, 2.6vw, 26px);
+  font-weight: 700;
+  color: var(--pagel-dark);
+  margin: 24px 0 16px;
+}
+
+.search-wrap {
+  margin: 24px 0 40px;
+}
+
+.search-wrap form {
+  display: flex;
+  max-width: 420px;
+  border: 1px solid var(--pagel-border);
+  border-radius: var(--pagel-radius);
+  overflow: hidden;
+}
+
+.search-wrap input[type="search"] {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-wrap button {
+  padding: 10px 18px;
+  border: none;
+  background: var(--pagel-red);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.search-wrap button:hover {
+  background: #a50d25;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-item {
+  border: 1px solid var(--pagel-border);
+  border-radius: var(--pagel-radius);
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.product-item:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.product-item a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-caption {
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--pagel-dark);
+  text-align: center;
+}
+
+/* -----------------------------------------------------------
+   Responsive tweaks
+   ----------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  .fl-col-group {
+    flex-direction: column;
+  }
+
+  .content-sidebar-wrap {
+    flex-direction: column;
+  }
+
+  .fl-post-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+}

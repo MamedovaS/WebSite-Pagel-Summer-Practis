@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './1.css'
 const PRODUCTS_ROW1 = [
   {
     href: '/products/grout',

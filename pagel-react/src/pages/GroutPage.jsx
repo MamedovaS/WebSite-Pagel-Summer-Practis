@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getProductsByCategory } from '../data/products';
-
+import './1.css'
 // --- Компонент категорії продуктів ---
 
 const ProductCategory = ({ id, title, image, description, products }) => {

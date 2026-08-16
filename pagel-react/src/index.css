@@ -403,16 +403,15 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Sales Section ── */
 .sales-section {
-  background: #1a2332 url('https://www.pagel.com/wp-content/uploads/2018/11/pg_kontakt.jpg') center / cover;
+  background: url('https://www.pagel.com/wp-content/uploads/2018/11/pg_kontakt.jpg') center / cover;
   padding: 60px 0;
-  color: #fff;
+  color: #000000;
   position: relative;
 }
 .sales-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(20, 30, 50, 0.82);
 }
 .sales-section .wrap { position: relative; z-index: 1; }
 .sales-grid {
@@ -420,16 +419,16 @@ button { font-family: inherit; cursor: pointer; }
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
-.sales-col h2 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #fff; }
-.sales-col h3 { font-size: 15px; font-weight: 600; margin: 16px 0 6px; color: rgba(255,255,255,0.85); }
-.sales-col h4 { font-size: 14px; font-weight: 600; margin: 10px 0 4px; color: rgba(255,255,255,0.75); }
-.sales-col p { font-size: 13px; line-height: 1.7; color: rgba(255,255,255,0.7); margin-bottom: 6px; }
-.sales-col a { color: rgba(255,255,255,0.8); text-decoration: underline; font-size: 13px; }
-.sales-col a:hover { color: #fff; }
+.sales-col h2 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #000000; }
+.sales-col h3 { font-size: 15px; font-weight: 600; margin: 16px 0 6px; color: rgba(0, 0, 0, 0.85); }
+.sales-col h4 { font-size: 14px; font-weight: 600; margin: 10px 0 4px; color: rgba(0, 0, 0, 0.75); }
+.sales-col p { font-size: 13px; line-height: 1.7; color: rgba(0, 0, 0, 0.7); margin-bottom: 6px; }
+.sales-col a { color: rgba(0, 0, 0, 0.8); text-decoration: underline; font-size: 13px; }
+.sales-col a:hover { color: #000000; }
 
 /* ── Footer ── */
 .footer-widgets {
-  background: #f7f7f7;
+  background: #ff0000;
   padding: 40px 0;
   border-top: 1px solid #e5e5e5;
 }

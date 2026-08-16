@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { getProductById } from '../data/products';
-
+import './1.css'
 const ProductPage = () => {
   const { category, slug } = useParams();
   const navigate = useNavigate();
