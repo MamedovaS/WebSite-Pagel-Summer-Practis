@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import "./SalesPage.css";
 
 // --- Дані: міжнародні партнери з продажу -----------------------------------
-// Контактні дані (адреси, телефони, e-mail, сайти) залишені без перекладу,
-// оскільки це фактичні реквізити компаній-партнерів.
-
 const salesPartners = [
   {
     country: "Аргентина",
@@ -584,7 +581,6 @@ const salesPartners = [
 ];
 
 // --- Допоміжний компонент акордеону -----------------------------------------
-
 function AccordionGroup({ items, renderContent }) {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -617,7 +613,6 @@ function AccordionGroup({ items, renderContent }) {
 }
 
 // --- Головна секція внутрішнього відділу продажів (Німеччина) --------------
-
 const domesticSections = [
   {
     title: "Головний офіс",
@@ -717,16 +712,60 @@ const domesticSections = [
 export default function SalesPage() {
   const [form, setForm] = useState({ name: "", email: "", message: "", consent: false });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setForm((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message || !form.consent) return;
-    setSubmitted(true);
+
+    setLoading(true);
+    setErrorMsg("");
+
+    try {
+      // Відправка форми напряму на vitalijsubak@gmail.com через FormSubmit.co
+      // (безкоштовний сервіс, не потребує реєстрації чи API-ключа).
+      // ВАЖЛИВО: при першій реальній відправці FormSubmit надішле лист
+      // на vitalijsubak@gmail.com з проханням підтвердити активацію форми
+      // для цього сайту (одноразова дія).
+      const response = await fetch(
+        "https://formsubmit.co/ajax/vitalijsubak@gmail.com",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            name: form.name,
+            email: form.email,
+            message: form.message,
+            _subject: "Нове повідомлення з сайту PAGEL",
+            _template: "table",
+          }),
+        }
+      );
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        setErrorMsg(
+          result.message || "Не вдалося надіслати повідомлення. Спробуйте пізніше."
+        );
+      }
+    } catch (err) {
+      console.error("Submit Error:", err);
+      setErrorMsg("Сталася помилка мережі. Перевірте з'єднання.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -846,6 +885,8 @@ export default function SalesPage() {
               </p>
             ) : (
               <form className="salesinfo-form" onSubmit={handleSubmit}>
+                {errorMsg && <p style={{ color: "red" }}>{errorMsg}</p>}
+
                 <div className="salesinfo-form-group">
                   <label htmlFor="salesinfo-name">Ваше ім'я</label>
                   <input
@@ -881,7 +922,7 @@ export default function SalesPage() {
                   <textarea
                     id="salesinfo-message"
                     name="message"
-                    placeholder="Ваше повідомлення. Якщо ви вкажете поштовий індекс, ми зможемо направити ваш запит безпосередньо відповідальному представнику відділу продажів."
+                    placeholder="Ваше повідомлення..."
                     value={form.message}
                     onChange={handleChange}
                     required
@@ -911,8 +952,12 @@ export default function SalesPage() {
                   </label>
                 </div>
 
-                <button type="submit" className="salesinfo-submit-button">
-                  Надіслати
+                <button
+                  type="submit"
+                  className="salesinfo-submit-button"
+                  disabled={loading}
+                >
+                  {loading ? "Надсилання..." : "Надіслати"}
                 </button>
               </form>
             )}

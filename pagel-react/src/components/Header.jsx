@@ -96,14 +96,26 @@ const Header = () => {
                         borderRadius: 4,
                         minWidth: 220,
                         zIndex: 100,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'stretch',
                       }}
                     >
                       {companyLinks.map((item) => (
-                        <li key={item.to}>
+                        <li
+                          key={item.to}
+                          style={{
+                            display: 'block',
+                            width: '100%',
+                            listStyle: 'none',
+                          }}
+                        >
                           <Link
                             to={item.to}
                             style={{
                               display: 'block',
+                              width: '100%',
+                              boxSizing: 'border-box',
                               padding: '8px 16px',
                               color: '#333',
                               textDecoration: 'none',
