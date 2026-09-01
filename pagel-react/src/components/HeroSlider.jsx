@@ -11,14 +11,6 @@ const SLIDES = [
     btnTo: '/products',
   },
   {
-    bg: 'https://www.pagel.com/wp-content/uploads/2024/09/wp_laboratory-1.jpg',
-    heading: <>Висока якість —<br />гарантовано!</>,
-    subheading: 'Дослідницька та розробна лабораторія PAGEL.',
-    text: 'PAGEL має сучасну лабораторію будівельних матеріалів. Наші продукти проходять випробування в кліматичних камерах, що підтверджує їхню практичну придатність.',
-    btnLabel: 'Про компанію',
-    btnTo: '/innovations',
-  },
-  {
     bg: 'https://www.pagel.com/wp-content/uploads/2024/06/edit-60.jpg',
     heading: <>Якість.<br />З 1974 року.</>,
     subheading: 'Понад 50 років на ринку.',

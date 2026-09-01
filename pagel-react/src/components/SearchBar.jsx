@@ -153,7 +153,7 @@ const SearchBar = () => {
         <input
           type="text"
           className="search-input"
-          placeholder="Пошук продуктів... (напр. 'розчин для турбіни')"
+          placeholder="Пошук продуктів"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={handleKeyDown}

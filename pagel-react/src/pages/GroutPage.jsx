@@ -115,7 +115,7 @@ const GroutPage = () => {
                         <div className="fl-col-group">
                           <div className="fl-col fl-col-bg-color">
                             <div className="fl-module fl-module-heading">
-                              <h2 className="fl-heading"><span className="fl-heading-text">Продуктова область</span></h2>
+                              <h2 className="fl-heading"><span className="fl-heading-text">Асортимент продукції</span></h2>
                             </div>
                             <div className="fl-module fl-module-heading">
                               <h1 className="fl-heading"><span className="fl-heading-text">РОЗЧИН ДЛЯ ЗАЛИВАННЯ</span></h1>

@@ -81,7 +81,7 @@ const ProductPage = () => {
               <article className="entry">
                 <div className="entry-content">
                   <div className="fl-builder-content">
-                    <div className="fl-row fl-row-fixed-width fl-row-bg-none">
+                    <div className="fl-row fl-row-fixed-width fl-row-bg-none" style={{ paddingTop: 0 }}>
                       <div className="fl-row-content-wrap">
                         <div className="fl-row-content fl-row-full-width fl-node-content">
                           
