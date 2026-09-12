@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4e8d9b6-4403-4e41-a163-ce891c3dcd6c" name="Changes" comment="width and logo problem fix; new contacts">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/0.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/1.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/10.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/5.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/index.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/index.pack.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_8_11_2026_9_59_AM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0007e66e3826d42f2b966384e8a5bb9ae4e2a1555baf2e9d67a53acbb3cefcf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/56ea2ba480b3ce85c88fafd381d674289bf11327ddafbb7a0596c3b239ac8426.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/75eea6478af3d4a5546832f9b22858d5be847c3f2f632ea5135e755c30f72695.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/788ae8132a3327e8119b528208ebe1ef50faee280f8ad849ce9178032a17b21c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/9ca74b1158d5ffb0af9939c06667f5153f7313e1b76b58967497e9f973d6f018.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c53dbc850074b9ab72b2f8e2355edad4d6f42e17bb530123a68259705f9e4497.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/cdb22eaae637bc475fd1d48241cbf91c3cbf73418003997d11511783fd0ec121.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e87ebbfffbe7e427d011ef6bad17af418a6132f025f1d13100c8f54213091fa9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0173684c0be53e238fb5ed401707e571bf603fc002d1c691217bffc8b84c8d2d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/060bde39dbd615c9aa31c24f131cf9eb21dadcf59a157d60afabc04f17f42d9b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0b18081f766dd08f97fbf127b3d951592c8faab8bce9331f51bc54bdeb487dc1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0b335670f8b4be541f106e1134d89d15e360daea216ac44d31f3af2b303ff782.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0b4ae064d99c33c519615b26093419adce7036804e08059040f12e3cd1b76184.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0bef036d0a819ad87ae16acf8292681a70bd39cde748cc1a1d0d7b0a5a7ddc16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0d4c59043ff30274d3d7ecb6326d440ea552aab5e9cb3cddfe41e767cebb1890.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/0e91ed1feb27e23f290bd8535fa774dc14d19b4c135bcc2b5f59f7befac6dcaf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/10451a2838e01749b98eaa94a33a95ec5966f9a032a4e57eeb26c3c9f211ccb6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/149d827e29b0f8a73a9fe043779f07baab7737769331a2a564283e398515d754.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/154320a49ee2268ee9095fa5100a2aea62c2b5a14274a16ab11cd8a6a54e2b58.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/17baa078179a738833b4b931d806c51c9e82261d30bb793612f506087f0e5c85.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/1c8b4225fc06e26b2fa29d30e229ef545b582c2ac1b40977e786dd06aea62b45.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/1eb2f480aca1d968ecdece6c9a4fe784a58660daa66b20ce421fc6ae8797489f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/20425119ba0393de0e57c609b7ee13802df91afa0e3686116a9c373db612a91c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/2234da7d28286a32aac6af53a06865a1a4360b655ead53a656db1893db3957eb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/23eb9e0d9d1c5910f43fa9388d4f9d0256ef6edb54a4a91348a4f841c196475f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/24b4c61492dc658a74b1f38aaf9ea3a28f140bf319ac03c5110db539c59dd5e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/2666ac463f325fbda9501efd7251d3a343695995cb80758677232ad1ac10f719.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/26a485ea4b39d4e583da19aec4598507ac11467ba76f3ea1c0b56ea42d33072d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/290ed8150b4e96542a932dd4c2caa04e7b322f15d175c9451d2b0663dc0526d5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/2be8c86784b2e15f7b0b0fe6be6e42fd7ce655146a10c375fc8d23ef46fcd207.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/2e2f5d5d3d5a157216a00672e56080fb2e25cf18557affc0f500851e465c83d3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/2e6d244d9dc8b0949f861a58beb1bb6b7249bce56f47bd5654231c75086b8bc8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3165d2a4a11a25d81f273afc8c7f207f416eb78abbf04fe5ed787625a3957a95.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/35dd333d7c70e457ba6ddd8f5b60b9345abe13eceb3f786c81b64bd80b905abe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/36109fdeb01dffc0e1085307d024ec12837fd9840386082a2ed7f693c58c6f96.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3694ec1c4055ac6be37df1213ed774b22bb982c48da4fbcfc152633a99757386.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/378e1e22513a82c9c209eacc2a1bdf7efe4447be9dba60c4a952f55f02530328.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/383d58b1492f8a8791a3ec9b37c4bddaf05aeed119ed98443b2765ad95f68dd4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/396853332c690a37da3e926c55b9ad7ef3c076b54efd1a1ddccdccc20815aba7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3bb24a215a33fd9d499c153ee912590f1b01a9a865090c0f2fef3bf280d2e1f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3ced770b182fac7e62d656eee32df0d8ed701c1b1587d43549f86d6084bb7ede.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3df6e68a566ba750f5cae0f2a3a5b0b94b2be7cce07311fadcc019747e05dbed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3e0e6c8c5523042c31c5c9ff57ec6cf4df79d27cd6f4a02dffc6a368cfccae57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/3ed7bb65b344cee1ce18f3988b97ea64a83ad590c0055054a469309c844117cc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/404a74cbb41b33e0a4ec2de44c9e0e674f4297d888abca6c8e59e56cc9337f4e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/40f671c527653087a88bc774eff561736c8e43c8d337d4002838861ef7b190c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/414b23e731a790d93524a1044edd5b917b4b5048d39abeaa005a6b32148c9c1a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/41dc9415e40c6071caded24b5b77c6cb220a6cc7b2b6f11c22a9df6524441097.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4203bd0bdcf130bb8e5e92283568b5a408bd4f450e91fdacbc0b7c9d3510c2f1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4298d088117205bebe005096a722dbf33ebfc07eba729ca39896e7db56273989.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/43472916414dddb645a4ba0bfa79fa2c0364d70b4c576c98d674c29951b400ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/438d30a41cdd71157256d492f54ae62b18bcb31168e6b649163828693a4ae8bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4399d34e3f5126b63a3e471b1b34c3fe77b8a968797f30f55884a2a4dbee8f8c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/47109714b49375f76c07a63e5a5e5bbcf00d408322c2c5a6d737d89d385b5530.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4955808415c638c12907463f8552ffcc43c7448522420cb0b0d16a962b01d120.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4c32b0e3a1e9e11065d3f65a3960a13daf7e220412b85177fa462c84056f00c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4d0e307e434b4d6b837865f5fdf4982d622428a611937c9136825e5817032d07.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4dfabcdaca20fd5c8fe806be69ff414eefaa977bab948a3745f52da3f9319ff2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/4fac9e4d066bc618e7a1b0e4c9175b0a26ee115180d1596b9dca75109168ce05.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/517da924bdfc94a0b1427512aeb49060cd4a2847e7b2bb4e731c955b6a0c569a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/577f41600eaab1f8a7eaa82a043719652b5d83a75588cb66daec7511de212bf4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/59b0dd312d6b255f4d830a31598fb5131cbb1014bf59e45bf8602a92899ccb76.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/59b8519d1f47007fc922d84f13ef27b49b4ad74ef704c9b7088ba4cb588e176b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/5d2334b9aea2200aeba260eb3e4f42b0fe23f2ab55eda43fe92b86795333bf1d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/5d858389e681499d6374970c23ea66d3991db39022b4398bb81e2203289303a1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/5e9828b4c7c287737647cf718db3d7b0c29f37ec57cfec0bca5d8d49ca495e47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/5f7c0d10ce9b2ec89ccfac8d4ed6d3e07a24f323da011bf17353404d4509652b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/5fb8de9386e5edffb383833227fdcccc9aea0079da589360799743e3fb62adbb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/604dc4827a227db66b499f0188c935e2fb283cd1a3c79acaa463447ebb03da52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6059835e19260751d063e27fa93c48da3582decbc209512fa1860cd6f0f6eaea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6139ef93e777f844251687b5f2c2c94a41921cfba998314f997a386ce940ed13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6153ed596baab9cab46a6066cc50e14b93191b6c82bb95dd2adbed18f14fa0ea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/635cdf95226a2aa7b1696ef4b3d978a7a52abd4b20ca736c4403156af0082b85.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/64a8c208b711c4fa29cb5387ea39586cec04af15d20d5992b14a557e4c8be62e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/67dc523bd5824218076609ccfe8350f7e9fa092599b593eb85192b1346c30e4f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6c58b7b9330af85dbe95399a890665328b3f84cd3e1279bfaa777d80fcfbb9fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6d1665beb22ce6ee6796d931a142235fef67bf9ffd876fbd810087b076fa702a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6e1a6a8d0ee71afe55200bf6496df8e3be3058a15561db273a26333024595adb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/6fe58a4bbed6c5ccc22f34c1d125d45f37a27eb3071a9f4b89b3b8bc99aa3870.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/714f75ea65e28a0d3d63269318b29d2ed05db2e138a8b698eda35d2398ca6259.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/73073a990dc401a22fb2d559a4dc9c2dc509338e82e9c2cddb37d67c41c548a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/7697e1b1c0851dd70225ba75458bc514f5f17a59cffc1c2b9d7b9848b3299520.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/7777e4ed6a9238b4e455d3a8ddf7844cfa55b045c9ebd76c2f92c0886990e4c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/78e52f9573a606b9f90ef4e65d81928181f5027acab2c0b748d563bbe57b010b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/7b1dbb41ad3225438ed3b8c0d30018b9fa9faa0ca7c4085a981906e477ec33b2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/7b97f4d5bc23a275bfd9b50bb00c461475994b2689371ad9e3baf02b49e03303.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/7db6a83fd25c8d706c3ba09a2f4c868904a1fde52260ad82d69de24d32409b68.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/817cb8a496eda561dd306d1baf1a644757e5c1a6dc7317c1e08d27275c9647e6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/83bd8c08c4be3a168ccd31fd7e12ea90199e15821144865e81170d03e10e795c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/84c4695bce20e1d71a2f4483fb740ff128ce22f07b306c86dc33a3f4db79258c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/84dd0fc5378a9a18ebc232214ecd3c3c83a0f5d88fefcd087dd38a523ba19300.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/853aa73da96e8db8fbe637388d628c2efe08a5e83b13ef9fdab7c9c2f98793b1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/87cf26a0f1f69955996c836f559e6a55f2a9a64283ddf0b6e5b8720244e294c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/87f601f79d4079f687f193b0b638d5907d444fad824e22f9568bb92144ad7d75.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8925b87f35e5762dba10cce1579a4c049d9ba508b4922d674dec07bdab1351a5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/89283a6cfbf4dbcd43ba28c4bd62b6c056131f3f85127b09c8ca921f4ef96a8c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8957637ad683118faaf052bff701964ec3d51131646482f7e60cd4e2bb19d5f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/896bc00aeef03b30cdf22145edbfabee6ca7a37d16bb9cdf8f0415e64c6ebee1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8c3b19ab107cf00e69058e2d90689917f9d1e0d72800a1673993a9196d7c71d5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8c3dfa2be14cc9935a425f5dc41f823731c3be52e85a46845e334cff4480fa16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8d03b8f61b800d3f8293802ea062f4796c6087f01452ca66972971929243d43f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/8d782d24db2546f5259903c9d144445ca2cdf124df0ce180e0c0bde8ea7e421c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/924a5d63ac05261a0dda9f9a74e97ea76c0e3477255eac1996874d607d856f2c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/92a57d657eaf1f139e4df07f055e8a486080b89f9cd324bce6665d395b608bc0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9380e3276dfd171b97294a8719a9fe6b295c12c615ff8ab111d5df3c925778ee.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/93a5fbcc4dd3f23a05170907f2b40f29b72000c917d144ae22f3d222ac50cf92.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/94d7110b25ef640fec36e172a9d20248231bc8fdbb1320a6f5fd6b2a362cc763.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9570fea4c9a85535335fab9cd3a5e47f49d85ece68cae48eed99750e52c385f7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/966373002e1190dda2b6d38a13142feac63d50914a5817c4ea08e409f5e396fd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9786744d39beb67c90d710444aa00ba424a7265150916195b13d809a018b2e24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9a62de4c10105b606d7134e669f1088b02faf18549acff9008be22d405230d59.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9bb4d678e17c2cd77354982425d208a3393b5a751dd85ea5d9faaea4a020af1c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9bfd56feb547a49c7c70519aa6a5de07c929b291f99fb78aa1fbdf1c3c4a9f7d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9cc63f0d66afc389f84ff1cae08522dbaf8e64e3d80e1032b0f44a743d224ec8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9fb780e5e226b9376e24b52d014e4a7ab5d017ecd2bba546fd92247a1eac0526.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/9ffe30fc22bb90bd334a7eeff528d5a5c98bf99f371c5ee0990573f06216de16.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a07fe63ee00a9e6a25dde957ec0dc169cd36c61ab0f69cae1a6cd8025cbc5cc1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a142f9d43772c905828e03e8981238f6021f8470c590d85baf9c22947fac2434.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a2def28eaa529b8bb591a15f4b8691e3a8da37143ce9c22c7fb8b12c3719faf4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a3c71d6b549511d80f27260fe02fd46379bfce9a904467b7e9fb5aba229e2a5b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a43847efff6e0aeea0ae28d495ac2bbc5e004ffcf146ee63f1dd7fedbb46f204.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a755eabd8c23e86fdd2f7feaa5d2be423ccc54c64900c2e1207f90246e1757a5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a7cca1c02e80005b494af6f6fd8a0b935bed9c34d7bbdc65a7bef32ec2ea5846.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/a983d7e515f2666490133f33014d6a0a3e0c3b48bf1cc861266abd032f330ac4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/abc0dc40ac05360376132a72666788eac220905f1701125ebb08b758dab2d64f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/ad95359f43a5942862001717b9ce6979b8e033c89390323e4569699ca87f7a21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b0c62a24660eed1ee8d4fc0bf4405334ae687ba0c22c1979105df6aeea0269da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b1841d435f9df95e6f7661328979ab5ecf268a259219eab9f8cae4bacd7ac03b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b314d4dbcba196ce0dbec8698e4f3d6278a27d4926d8d015181ab85fd8ca6576.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b35a722f6bac6f6b0b882fc03483498dc3a4c7defed327d982322d63f01c1e4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b7a60efa66190048dac592537c321d0836ff2925d9ccc05b7ba45440a033d213.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b83ce62f35c1118aa57b89efdf64f62403d16686643b66c989b304d1015352c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b8a62efcf4167e782c4532a0787e20a0f205266bc8e336fc7ea2801479327ac8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/b98685da8f92333c148187e99a9c9b1f19f4fb5e46ad1c04794628522ac2c75a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/baf43e60fe73cd2eb397dcaa19d3101e1b68951573896305fb61d03a0e617640.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/bce705b980e82160010140533ae00dcdca342bdfeb905593a36d7d91664a4187.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/bde74395e69faf037cd0f8700c21235f778ab6e749c1c9be3b3e303f9d40beb8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c2673290599ba95154a0c2327d0453aa15936f5e0ff074cf3b51e05f3173e7ac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c332a705a4072a88e6712e740e44ca3d94bb37439f05319dae8a3f5a9d096654.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c35e9b5be79374be54a30e16a862975389b268d2c174b1e03bac4d77325ce136.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c46bb892174c3b14c684400c817da1509c56ee9939f21f37a95cbea214e83cf3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c6e0cb9f4b3112d3754168ec1230d2ea8f78bbe7bb754049fa89fd496c60ceb9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/c8d8d9f588b259e52f2a663c5564433f06b975a25162d874cd20f18dac2e726f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/ca98b5fa8b19b6ae8ff6b9718085bac2883ba54ca668a32bcb32b3356e8a4ede.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/cb4e22d1a126306255ea92ab150f31d6aa5ed0ff4a9d557e3bba556b7346b1df.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/cf861e94b70e6b5e5fc15e59aa879a9eddd51a5554ab2bd2227ce94102b3ed6b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/cfb39c906fad968fc2a32e5247dc617b7ad9930969b52dbf1b997a1bbc9ab638.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/d19a383877163321c934c55cab91b53c0208245669bf19263eed83befc57b9f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/d354f45dc103429f1272ec90837342948d82e7f03ce3b3b64f06eb6394fb9e78.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/d5380b7f6ddf783e2d32fba659f6c5a373cb12e7d52dbe4b4af8d7e398c8781a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/db6c6721d59f75f7a52f17e81fc87aaa4b277cca64e98e99ebb4c5dd08a98657.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/dc51ba53bc22935ed72ce7e52737e45db79da7b0f6415d5ccad9583310998d26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/de463067f0c53ceaeaa0fedc886a33451a3b2df29de9472fbdb0fed2c3e1b1e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/de6af6fe5facc4c414647401d4b0bc2b1b62713c15d9b35675add7fc9986f51a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/de731fdc8d2fabdf1d44ceec9e1e0f703769f6a65bd501f32c242af608d9335c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e19bc1ff17442fa718751e0b4bb0b0a3c05833062c956ef4f71c3ca78ec1dcc8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e2c5e70e701f95a420fedf575ebfa726dbafd254a56d801ad911878808a8d633.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e2e67d6279c207355c5513f92efa48b246cbe466cd26bfd03ad9cf69301c7cda.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e3befaa4f0cb401de97734b4ef14f1a14fa46a1dd734d48cd0eb4004719d3ae9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e42e60eff58dae9acc4f736af4637ca0ab34ef99cc8aa574d3b41767e298fbf2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e438c784bed5515a53ed32ce799b6274f03ac249ea4e7b3edab4c451abef4e96.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e4a05dc7a29518c69521df453cf2d609916603a440289bd5b3e6722df85102f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e5afbabf787d23cae80f5c145e29121326037f60b335581458eb4c3b9041981f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/e6f1310576c296bb17d4ff198bdeebcfbce017ccbf79817fc98baa98ad131fac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/eb48a523c4cf8776e04299e3d9c9a469d00f5138d0a7854faf0e874e2b740605.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/eda2bd8fab2ea74f121776f6e42bfc485c25a11d7057bac0d4f01c8971c9f549.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/edce988aa48f92cf409ecb41ae1278733bcb96b27b107fca4d00dbade978dbac.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/ee6e8447eec84edbabad91719e58bbcbcca70e9e9a47e667de8cf1048875b1ab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/eee21bdf87de1b03c0f9cec4297d7c38f2c649fa3d24d9bd82f7efb9174808ae.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/ef1b7c0bd1e44ab25e9dd389f50bb3cbcb6737f2c160da050e8a8c9e2f8d0f8a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/f487ddd7555d7893fb39ea8af5b2b73d81ed7351a5a196192d63ea68afde66cf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/f571467984a753b9365bf7da88e24f402a2549ee07290ccc9d64dc7c40714c82.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/f6e527fa20280824ecd4ef2326890e994ddc8f3e3ae2f7fb1891035913ea41f3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/f7352c021dfe52ed9d23fbae1327d4964a78881ff4652388b9df558b46592ccb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/fdfddc38557dd57e5626830cbc8d52647075e1e245bbbad3abc9badfbc08007b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pagel-react/node_modules/.cache/babel-loader/fea0352637d4cb53858798ff12fd16e40639c5b27e8e993c87c69744139e3086.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="19a3ce379d8909da657415d812ae3b9a09e7493f" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3HRSW04UJdYjMMdITPicB8Jkf7G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;98ccf07f&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/S_N_V/Downloads/WebSite-Pagel-Summer-Practis-master1&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S_N_V\OneDrive\Рабочий стол\WebSite-Pagel-Summer-Practis\pagel-react\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4e8d9b6-4403-4e41-a163-ce891c3dcd6c" name="Changes" comment="" />
+      <created>1785829418080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785829418080</updated>
+    </task>
+    <task id="LOCAL-00001" summary="width and logo problem fix; new contacts">
+      <option name="closed" value="true" />
+      <created>1789207053941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789207053941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="width and logo problem fix; new contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="width and logo problem fix; new contacts" />
+  </component>
+</project>
