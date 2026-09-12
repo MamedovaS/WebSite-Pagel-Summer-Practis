@@ -32,12 +32,29 @@ button { font-family: inherit; cursor: pointer; }
   height: 64px;
 }
 .site-title a {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+.site-logo {
+  height: 56px;
+  width: auto;
   display: block;
-  width: 140px;
-  height: 40px;
-  background: url('https://www.pagel.com/wp-content/uploads/2024/09/pagel_logo.svg') no-repeat center / contain;
-  text-indent: -9999px;
-  overflow: hidden;
+}
+
+.site-title-brand {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #c8102e;
+}
+.site-title-sub {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+@media (max-width: 480px) {
+  .site-title-sub { display: none; }
 }
 
 /* ── Nav ── */
@@ -408,15 +425,10 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Sales Section ── */
 .sales-section {
-  background: url('https://www.pagel.com/wp-content/uploads/2018/11/pg_kontakt.jpg') center / cover;
+  background: #c8102e;
   padding: 60px 0;
-  color: #000000;
+  color: #ffffff;
   position: relative;
-}
-.sales-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
 }
 .sales-section .wrap { position: relative; z-index: 1; }
 .sales-grid {
@@ -424,16 +436,15 @@ button { font-family: inherit; cursor: pointer; }
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
-.sales-col h2 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #000000; }
-.sales-col h3 { font-size: 15px; font-weight: 600; margin: 16px 0 6px; color: rgba(0, 0, 0, 0.85); }
-.sales-col h4 { font-size: 14px; font-weight: 600; margin: 10px 0 4px; color: rgba(0, 0, 0, 0.75); }
-.sales-col p { font-size: 13px; line-height: 1.7; color: rgba(0, 0, 0, 0.7); margin-bottom: 6px; }
-.sales-col a { color: rgba(0, 0, 0, 0.8); text-decoration: underline; font-size: 13px; }
-.sales-col a:hover { color: #000000; }
+.sales-col h2 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
+.sales-col h3 { font-size: 15px; font-weight: 600; margin: 16px 0 6px; color: rgba(255, 255, 255, 0.9); }
+.sales-col h4 { font-size: 14px; font-weight: 600; margin: 10px 0 4px; color: rgba(255, 255, 255, 0.8); }
+.sales-col p { font-size: 13px; line-height: 1.7; color: rgba(255, 255, 255, 0.85); margin-bottom: 6px; }
+.sales-col a { color: #ffffff; text-decoration: underline; font-size: 13px; }
+.sales-col a:hover { color: rgba(255, 255, 255, 0.75); }
 
-/* ── Footer ── */
 .footer-widgets {
-  background: #ff0000;
+  background: #c8102e;
   padding: 40px 0;
   border-top: 1px solid #e5e5e5;
 }
