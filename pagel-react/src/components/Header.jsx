@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
+import logo from '../components/logo.svg';
 
 const companyLinks = [
   { to: '/innovations', label: 'Інновації' },
@@ -18,7 +19,9 @@ const Header = () => {
       <div className="wrap">
         <div className="title-area">
           <p className="site-title">
-            <Link to="/">Pagel - Spezial Beton</Link>
+           <Link to="/">
+             <img src={logo} className="site-logo" />
+           </Link>
           </p>
         </div>
         <div className="widget-area header-widget-area">

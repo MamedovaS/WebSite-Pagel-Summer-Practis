@@ -114,7 +114,7 @@ export default function PagelEvolinePage() {
   const savedCO2 = Math.round(epdBaseline - evolineEmission);
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 font-sans">
+    <div className="evoline-page min-h-screen bg-slate-50 text-slate-800 font-sans">
       {/* Шапка / Навігація */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">

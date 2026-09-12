@@ -4,68 +4,68 @@ export default function Footer() {
   return (
     <footer className="bg-white !text-black">
       <section className="sales-section py-10">
-        <div className="wrap max-w-7xl mx-auto px-4">
+        <div className="wrap">
           <div className="sales-grid grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            <div className="sales-col !text-black">
-              <h2 className="text-xl font-bold mb-4 !text-black">Закордонний відділ продажів</h2>
 
-              <h3 className="font-semibold !text-black">Daniel Valaev</h3>
-              <p className="!text-black">
-                Тел.: <a href="tel:+491705754751" className="underline hover:no-underline !text-black">+49 170 5754751</a>
-              </p>
-              <p className="mb-4 !text-black">
-                <a href="mailto:valaev@pagel.de" className="underline hover:no-underline !text-black">valaev@pagel.de</a>
-              </p>
+            <div className="sales-col">
+              <h2 className="text-xl font-bold mb-4">Закордонний відділ продажів</h2>
 
-              <h3 className="font-semibold !text-black">Обробка закордонних продажів</h3>
-              <h3 className="font-semibold !text-black">Martina Linke</h3>
-              <p className="!text-black">
-                Тел. <a href="tel:+492016850423" className="underline hover:no-underline !text-black">+49 201 68504-23</a>
+              <h3 className="font-semibold">Daniel Valaev</h3>
+              <p>
+                Тел.: <a href="tel:+491705754751" className="underline hover:no-underline">+49 170 5754751</a>
               </p>
-              <p className="mb-4 !text-black">
-                <a href="mailto:linke@pagel.de" className="underline hover:no-underline !text-black">linke@pagel.de</a>
+              <p className="mb-4">
+                <a href="mailto:valaev@pagel.de" className="underline hover:no-underline">valaev@pagel.de</a>
               </p>
 
-              <h4 className="font-semibold !text-black">PAGEL Technische Mörtel GmbH &amp; Co. KG</h4>
-              <p className="!text-black">
+              <h3 className="font-semibold">Обробка закордонних продажів</h3>
+              <h3 className="font-semibold">Martina Linke</h3>
+              <p>
+                Тел. <a href="tel:+492016850423" className="underline hover:no-underline">+49 201 68504-23</a>
+              </p>
+              <p className="mb-4">
+                <a href="mailto:linke@pagel.de" className="underline hover:no-underline">linke@pagel.de</a>
+              </p>
+
+              <h4 className="font-semibold">PAGEL Technische Mörtel GmbH &amp; Co. KG</h4>
+              <p>
                 <a
                   href="https://www.pagel.com/all/pdf/pagel_tm_ueberblick_de.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline hover:no-underline !text-black"
+                  className="underline hover:no-underline"
                 >
                   Інформаційний листок
                 </a>
               </p>
             </div>
 
-            <div className="sales-col !text-black">
-              <h2 className="text-xl font-bold mb-4 !text-black">PAGEL Spezial-Beton GmbH &amp; Co. KG</h2>
-              <p className="mb-4 !text-black">
+            <div className="sales-col">
+              <h2 className="text-xl font-bold mb-4">PAGEL Spezial-Beton GmbH &amp; Co. KG</h2>
+              <p className="mb-4">
                 Wolfsbankring 9
                 <br />
                 D-45355 Essen
                 <br />
-                Тел. <a href="tel:+49201685040" className="underline hover:no-underline !text-black">+49 201 68504-0</a>
+                Тел. <a href="tel:+49201685040" className="underline hover:no-underline">+49 201 68504-0</a>
                 <br />
-                Факс <a href="tel:+492016850431" className="underline hover:no-underline !text-black">+49 201 68504-31</a>
+                Факс <a href="tel:+492016850431" className="underline hover:no-underline">+49 201 68504-31</a>
               </p>
-              <p className="mb-6 !text-black">
-                <a href="mailto:info@pagel.com" className="underline hover:no-underline !text-black">info@pagel.com</a>
+              <p className="mb-6">
+                <a href="mailto:info@pagel.com" className="underline hover:no-underline">info@pagel.com</a>
               </p>
 
-              <h3 className="text-lg font-bold mb-2 !text-black">Графік роботи</h3>
+              <h3 className="text-lg font-bold mb-2">Графік роботи</h3>
 
-              <h4 className="font-semibold !text-black">Офіс</h4>
-              <p className="mb-4 !text-black">
+              <h4 className="font-semibold">Офіс</h4>
+              <p className="mb-4">
                 Пн–Чт: 7.30–12.00 / 12.30–16.30
                 <br />
                 Пт: 7.30–12.00 / 12.30–14.00
               </p>
 
-              <h4 className="font-semibold !text-black">Відвантаження</h4>
-              <p className="!text-black">
+              <h4 className="font-semibold">Відвантаження</h4>
+              <p>
                 Пн–Чт: 6.00–16.00
                 <br />
                 Прийом вантажів до 15.30
@@ -76,33 +76,44 @@ export default function Footer() {
               </p>
             </div>
 
-            <div className="sales-col !text-black">
-              <h2 className="text-xl font-bold mb-4 !text-black">Відділ продажів у Німеччині</h2>
+            <div className="sales-col">
+              <h2 className="text-xl font-bold mb-4">Представництво PAGEL в Україні</h2>
 
-              <h3 className="font-semibold !text-black">Замовлення та збут</h3>
-              <p className="!text-black">
-                Тел. <a href="tel:+492016850450" className="underline hover:no-underline !text-black">+49 201 68504-50</a>
-              </p>
-              <p className="mb-4 !text-black">
-                <a href="mailto:bestellung@pagel.de" className="underline hover:no-underline !text-black">bestellung@pagel.de</a>
+              <h3 className="font-semibold">Відділ продажів</h3>
+              <p className="mb-4">
+                Тел.: <a href="tel:+380674416979" className="underline hover:no-underline">+380 67 441 6979</a>
               </p>
 
-              <h3 className="font-semibold mb-2 !text-black">Внутрішні продажі та технічна консультація</h3>
-
-              <h4 className="font-semibold !text-black">Arthur Brozyna</h4>
-              <p className="!text-black">
-                Тел. <a href="tel:+492016850420" className="underline hover:no-underline !text-black">+49 201 68504-20</a>
-              </p>
-              <p className="mb-4 !text-black">
-                <a href="mailto:brozyna@pagel.de" className="underline hover:no-underline !text-black">brozyna@pagel.de</a>
+              <h3 className="font-semibold">Технічна консультація</h3>
+              <p className="mb-4">
+                Тел.: <a href="tel:+380503706578" className="underline hover:no-underline">+380 50 370 6578</a>
               </p>
 
-              <h4 className="font-semibold !text-black">Stephan Roos</h4>
-              <p className="!text-black">
-                Тел. <a href="tel:+492016850429" className="underline hover:no-underline !text-black">+49 201 68504-29</a>
+              <h4 className="font-semibold">Склад N-GROUP</h4>
+              <p>
+                с. Солонка, Львівська область
+                <br />
+                вул. Стрийська, 55
               </p>
-              <p className="!text-black">
-                <a href="mailto:roos@pagel.de" className="underline hover:no-underline !text-black">roos@pagel.de</a>
+              <p className="mb-4">
+                Зав. складу — Андрій Дуда, <a href="tel:+380974788167" className="underline hover:no-underline">097 478 8167</a>
+                <br />
+                Заступник — <a href="tel:+380671442027" className="underline hover:no-underline">+380 67 144 2027</a>
+              </p>
+
+              <h4 className="font-semibold">Робочий час</h4>
+              <p className="mb-4">
+                Робочі дні: пн–пт
+                <br />
+                Робочі години: 9:00–17:30
+                <br />
+                Обід: 13:00–14:00
+              </p>
+
+              <p>
+                <a href="https://maps.app.goo.gl/u27CezM5tz9bzRzN9" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+                  Показати на карті
+                </a>
               </p>
             </div>
 
@@ -111,7 +122,7 @@ export default function Footer() {
       </section>
 
       <div className="footer-widgets py-8 border-t border-gray-200 !text-black">
-        <div className="wrap max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-start gap-8">
+        <div className="wrap flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
             <div className="footer-social flex gap-4 !text-black">
               <a href="https://de.linkedin.com/company/pagel-spezial-beton" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:opacity-75 !text-black">
@@ -161,7 +172,7 @@ export default function Footer() {
       </div>
 
       <div className="site-footer py-4 border-t border-gray-200 !text-black">
-        <div className="wrap max-w-7xl mx-auto px-4 text-center md:text-left">
+        <div className="wrap text-center md:text-left">
           <p className="text-sm !text-black">
             Copyright © 2026 · PAGEL Spezial-Beton GmbH &amp; Co. KG · Wolfsbankring 9, D-45355 Essen · <a href="mailto:info@pagel.com" className="underline hover:no-underline !text-black">info@pagel.com</a>
           </p>

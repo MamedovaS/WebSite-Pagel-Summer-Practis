@@ -51,7 +51,7 @@ export default function HomePage() {
       <div className="breadcrumbs-outer">
         <div className="wrap">
           <div className="breadcrumb">
-            <a href="/">&#8962; PAGEL</a>
+            <a href="/">&#8962; Н-груп</a>
           </div>
         </div>
       </div>
@@ -144,22 +144,32 @@ export default function HomePage() {
             </div>
 
             <div className="sales-col">
-              <h2>Відділ продажів Німеччина</h2>
-              <h4>Замовлення та розподіл</h4>
+              <h2>Представництво PAGEL в Україні</h2>
+              <h3>Відділ продажів</h3>
               <p>
-                Тел.: <a href="tel:+492016850450">+49 201 68504-50</a><br />
-                <a href="mailto:bestellung@pagel.de">bestellung@pagel.de</a>
+                Тел.: <a href="tel:+380674416979">+380 67 441 6979</a>
               </p>
-              <h3>Внутрішні продажі та технічні консультації</h3>
-              <h4>Arthur Brozyna</h4>
+              <h3>Технічна консультація</h3>
               <p>
-                Тел.: <a href="tel:+492016850420">+49 201 68504-20</a><br />
-                <a href="mailto:brozyna@pagel.de">brozyna@pagel.de</a>
+                Тел.: <a href="tel:+380503706578">+380 50 370 6578</a>
               </p>
-              <h4>Stephan Roos</h4>
+              <h4>Склад N-GROUP</h4>
               <p>
-                Тел.: <a href="tel:+492016850429">+49 201 68504-29</a><br />
-                <a href="mailto:roos@pagel.de">roos@pagel.de</a>
+                с. Солонка, Львівська область<br />
+                вул. Стрийська, 55
+              </p>
+              <p>
+                Зав. складу — Андрій Дуда, <a href="tel:+380974788167">097 478 8167</a><br />
+                Заступник — <a href="tel:+380671442027">+380 67 144 2027</a>
+              </p>
+              <h4>Робочий час</h4>
+              <p>
+                Робочі дні: пн–пт<br />
+                Робочі години: 9:00–17:30<br />
+                Обід: 13:00–14:00
+              </p>
+              <p>
+                <a href="https://maps.app.goo.gl/u27CezM5tz9bzRzN9" target="_blank" rel="noreferrer">Показати на карті</a>
               </p>
             </div>
           </div>

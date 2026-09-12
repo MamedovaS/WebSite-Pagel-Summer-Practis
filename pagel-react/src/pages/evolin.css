@@ -1,13 +1,4 @@
-/* ==========================================
-   1. СКИДАННЯ ТА БАЗОВІ НАЛАШТУВАННЯ
-   ========================================== */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-:root {
+.evoline-page {
   --primary-color: #2563eb;
   --primary-hover: #1d4ed8;
   --bg-color: #f8fafc;
@@ -17,22 +8,14 @@
   --border-color: #e2e8f0;
   --radius: 12px;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-}
 
-body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-main);
   line-height: 1.6;
-  padding: 2rem 1rem;
-  display: flex;
-  justify-content: center;
 }
 
-/* ==========================================
-   2. ОСНОВНИЙ КОНТЕЙНЕР (Рівномірний макет)
-   ========================================== */
-.container {
+.evoline-page .container {
   width: 100%;
   max-width: 900px;
   display: flex;
@@ -40,10 +23,7 @@ body {
   gap: 2rem;
 }
 
-/* ==========================================
-   3. КАРТКИ ТА СЕКЦІЇ
-   ========================================== */
-.card {
+.evoline-page .card {
   background: var(--card-bg);
   border-radius: var(--radius);
   padding: 2rem;
@@ -51,29 +31,25 @@ body {
   box-shadow: var(--shadow);
 }
 
-.grid {
+.evoline-page .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
 }
 
-/* ==========================================
-   4. ТИПОГРАФІКА
-   ========================================== */
-h1, h2, h3 {
+.evoline-page h1,
+.evoline-page h2,
+.evoline-page h3 {
   color: var(--text-main);
   font-weight: 700;
   line-height: 1.2;
 }
 
-h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-h2 { font-size: 1.5rem; margin-bottom: 0.75rem; }
-p { color: var(--text-muted); margin-bottom: 1rem; }
+.evoline-page h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+.evoline-page h2 { font-size: 1.5rem; margin-bottom: 0.75rem; }
+.evoline-page p { color: var(--text-muted); margin-bottom: 1rem; }
 
-/* ==========================================
-   5. ЕЛЕМЕНТИ ФОРМ ТА КНОПКИ
-   ========================================== */
-.btn {
+.evoline-page .btn {
   display: inline-block;
   background-color: var(--primary-color);
   color: #ffffff;
@@ -86,11 +62,13 @@ p { color: var(--text-muted); margin-bottom: 1rem; }
   transition: background-color 0.2s ease;
 }
 
-.btn:hover {
+.evoline-page .btn:hover {
   background-color: var(--primary-hover);
 }
 
-input, textarea, select {
+.evoline-page input,
+.evoline-page textarea,
+.evoline-page select {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid var(--border-color);
@@ -100,7 +78,8 @@ input, textarea, select {
   outline: none;
 }
 
-input:focus, textarea:focus {
+.evoline-page input:focus,
+.evoline-page textarea:focus {
   border-color: var(--primary-color);
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
