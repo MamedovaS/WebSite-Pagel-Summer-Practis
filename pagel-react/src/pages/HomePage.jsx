@@ -109,70 +109,7 @@ export default function HomePage() {
       {/* Sales Section */}
       <section className="sales-section" id="lp_sales">
         <div className="wrap">
-          <div className="sales-grid">
-            <div className="sales-col">
-              <h2>Відділ іноземних продажів</h2>
-              <h4>Daniel Valaev</h4>
-              <p>
-                Тел.: <a href="tel:+491705754751">+49 170 5754751</a><br />
-                <a href="mailto:valaev@pagel.de">valaev@pagel.de</a>
-              </p>
-              <h3>Обробка іноземних замовлень</h3>
-              <h4>Martina Linke</h4>
-              <p>
-                Тел.: <a href="tel:+492016850423">+49 201 68504-23</a><br />
-                <a href="mailto:linke@pagel.de">linke@pagel.de</a>
-              </p>
-              <h3>PAGEL Technische Mörtel GmbH &amp; Co. KG</h3>
-              <p><a href="https://www.pagel.com/all/pdf/pagel_tm_ueberblick_de.pdf" target="_blank" rel="noreferrer">Інформаційний аркуш</a></p>
-            </div>
 
-            <div className="sales-col">
-              <h2>PAGEL Spezial-Beton GmbH &amp; Co. KG</h2>
-              <p>
-                Wolfsbankring 9<br />
-                D-45355 Essen<br />
-                Тел.: <a href="tel:+49201685040">+49 201 68504-0</a><br />
-                Факс: <a href="tel:+492016850431">+49 201 68504-31</a><br />
-                <a href="mailto:info@pagel.com">info@pagel.com</a>
-              </p>
-              <h3>Години роботи</h3>
-              <h4>Офіс</h4>
-              <p>Пн–Чт: 7:30–12:00 / 12:30–16:30<br />Пт: 7:30–12:00 / 12:30–14:00</p>
-              <h4>Відвантаження</h4>
-              <p>Пн–Чт: 6:00–16:00 (закриття замовлень: 15:30)<br />Пт: 6:00–14:30 (закриття замовлень: 14:00)</p>
-            </div>
-
-            <div className="sales-col">
-              <h2>Представництво PAGEL в Україні</h2>
-              <h3>Відділ продажів</h3>
-              <p>
-                Тел.: <a href="tel:+380674416979">+380 67 441 6979</a>
-              </p>
-              <h3>Технічна консультація</h3>
-              <p>
-                Тел.: <a href="tel:+380503706578">+380 50 370 6578</a>
-              </p>
-              <h4>Склад N-GROUP</h4>
-              <p>
-                с. Солонка, Львівська область<br />
-                вул. Стрийська, 55
-              </p>
-              <p>
-                Зав. складу — Андрій Дуда, <a href="tel:+380974788167">097 478 8167</a><br />
-                Заступник — <a href="tel:+380671442027">+380 67 144 2027</a>
-              </p>
-              <h4>Робочий час</h4>
-              <p>
-                Робочі дні: пн–пт<br />
-                Робочі години: 9:00–17:30<br />
-                Обід: 13:00–14:00
-              </p>
-              <p>
-                <a href="https://maps.app.goo.gl/u27CezM5tz9bzRzN9" target="_blank" rel="noreferrer">Показати на карті</a>
-              </p>
-            </div>
-          </div>
         </div>
       </section>
     </main>

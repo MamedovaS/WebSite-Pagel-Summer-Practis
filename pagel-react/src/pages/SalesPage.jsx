@@ -613,6 +613,7 @@ function AccordionGroup({ items, renderContent }) {
 }
 
 // --- Головна секція внутрішнього відділу продажів (Німеччина) --------------
+// TO DO: VIK remove info
 const domesticSections = [
   {
     title: "Головний офіс",

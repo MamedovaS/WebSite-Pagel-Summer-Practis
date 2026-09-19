@@ -426,7 +426,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ── Sales Section ── */
 .sales-section {
   background: #c8102e;
-  padding: 60px 0;
+  padding: 20px 0;
   color: #ffffff;
   position: relative;
 }

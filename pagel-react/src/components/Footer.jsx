@@ -5,116 +5,41 @@ export default function Footer() {
     <footer className="bg-white !text-black">
       <section className="sales-section py-10">
         <div className="wrap">
-          <div className="sales-grid grid grid-cols-1 md:grid-cols-3 gap-8">
-
+          <div className="sales-grid">
             <div className="sales-col">
-              <h2 className="text-xl font-bold mb-4">Закордонний відділ продажів</h2>
-
-              <h3 className="font-semibold">Daniel Valaev</h3>
-              <p>
-                Тел.: <a href="tel:+491705754751" className="underline hover:no-underline">+49 170 5754751</a>
-              </p>
-              <p className="mb-4">
-                <a href="mailto:valaev@pagel.de" className="underline hover:no-underline">valaev@pagel.de</a>
-              </p>
-
-              <h3 className="font-semibold">Обробка закордонних продажів</h3>
-              <h3 className="font-semibold">Martina Linke</h3>
-              <p>
-                Тел. <a href="tel:+492016850423" className="underline hover:no-underline">+49 201 68504-23</a>
-              </p>
-              <p className="mb-4">
-                <a href="mailto:linke@pagel.de" className="underline hover:no-underline">linke@pagel.de</a>
-              </p>
-
-              <h4 className="font-semibold">PAGEL Technische Mörtel GmbH &amp; Co. KG</h4>
-              <p>
-                <a
-                  href="https://www.pagel.com/all/pdf/pagel_tm_ueberblick_de.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline hover:no-underline"
-                >
-                  Інформаційний листок
-                </a>
-              </p>
+              <h2>N-GROUP - Представництво PAGEL в Україні</h2>
+              <h3>Відділ продажів</h3>
+              <p>Тел.: +380674416979</p>
+              <p>ngroup.ua@gmail.com</p>
             </div>
 
             <div className="sales-col">
-              <h2 className="text-xl font-bold mb-4">PAGEL Spezial-Beton GmbH &amp; Co. KG</h2>
-              <p className="mb-4">
-                Wolfsbankring 9
-                <br />
-                D-45355 Essen
-                <br />
-                Тел. <a href="tel:+49201685040" className="underline hover:no-underline">+49 201 68504-0</a>
-                <br />
-                Факс <a href="tel:+492016850431" className="underline hover:no-underline">+49 201 68504-31</a>
-              </p>
-              <p className="mb-6">
-                <a href="mailto:info@pagel.com" className="underline hover:no-underline">info@pagel.com</a>
-              </p>
-
-              <h3 className="text-lg font-bold mb-2">Графік роботи</h3>
-
-              <h4 className="font-semibold">Офіс</h4>
-              <p className="mb-4">
-                Пн–Чт: 7.30–12.00 / 12.30–16.30
-                <br />
-                Пт: 7.30–12.00 / 12.30–14.00
-              </p>
-
-              <h4 className="font-semibold">Відвантаження</h4>
-              <p>
-                Пн–Чт: 6.00–16.00
-                <br />
-                Прийом вантажів до 15.30
-                <br />
-                Пт: 6.00–14.30
-                <br />
-                Прийом вантажів до 14.00
-              </p>
+              <br/>
+                <h3>Технічна консультація</h3>
+                <p>Тел.: +380503706578</p>
             </div>
 
             <div className="sales-col">
-              <h2 className="text-xl font-bold mb-4">Представництво PAGEL в Україні</h2>
-
-              <h3 className="font-semibold">Відділ продажів</h3>
-              <p className="mb-4">
-                Тел.: <a href="tel:+380674416979" className="underline hover:no-underline">+380 67 441 6979</a>
-              </p>
-
-              <h3 className="font-semibold">Технічна консультація</h3>
-              <p className="mb-4">
-                Тел.: <a href="tel:+380503706578" className="underline hover:no-underline">+380 50 370 6578</a>
-              </p>
-
-              <h4 className="font-semibold">Склад N-GROUP</h4>
+              <br/>
+              <h4>Склад матеріалів Pagel</h4>
               <p>
-                с. Солонка, Львівська область
-                <br />
+                с. Солонка, Львівська область<br />
                 вул. Стрийська, 55
               </p>
-              <p className="mb-4">
-                Зав. складу — Андрій Дуда, <a href="tel:+380974788167" className="underline hover:no-underline">097 478 8167</a>
-                <br />
-                Заступник — <a href="tel:+380671442027" className="underline hover:no-underline">+380 67 144 2027</a>
+              <p>
+                Зав. складу: +380974788167<br />
+                Заступник: +380671442027
               </p>
-
-              <h4 className="font-semibold">Робочий час</h4>
-              <p className="mb-4">
-                Робочі дні: пн–пт
-                <br />
-                Робочі години: 9:00–17:30
-                <br />
+              <h4>Робочий час</h4>
+              <p>
+                Робочі дні: пн–пт<br />
+                Робочі години: 9:00–17:30<br />
                 Обід: 13:00–14:00
               </p>
-
               <p>
-                <a href="https://maps.app.goo.gl/u27CezM5tz9bzRzN9" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
-                  Показати на карті
-                </a>
+                <a href="https://maps.app.goo.gl/u27CezM5tz9bzRzN9" target="_blank" rel="noreferrer">Показати на карті</a>
               </p>
+
             </div>
 
           </div>
