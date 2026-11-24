@@ -144,6 +144,7 @@
 }
 
 .salesinfo-contact-section {
+  margin-bottom: 48px;
   max-width: 640px;
 }
 
@@ -213,4 +214,81 @@
   border: 1px solid #bbf7d0;
   border-radius: 4px;
   color: #166534;
+}
+
+/* --- Контактні картки --- */
+.salesinfo-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 28px 0 20px;
+}
+
+.salesinfo-card {
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-top: 3px solid #c8102e;
+  border-radius: 4px;
+  padding: 18px 20px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.salesinfo-card h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+  color: #1a1a1a;
+}
+
+.salesinfo-card p {
+  margin: 0 0 10px;
+}
+
+.salesinfo-card p:last-child {
+  margin-bottom: 0;
+}
+
+.salesinfo-card a {
+  color: #c8102e;
+}
+
+.salesinfo-card a:hover {
+  text-decoration: underline;
+}
+
+.salesinfo-requisites dl {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 8px 20px;
+  margin: 0;
+}
+
+.salesinfo-requisites dt {
+  color: #666;
+}
+
+.salesinfo-requisites dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .salesinfo-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .salesinfo-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .salesinfo-requisites dl {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .salesinfo-requisites dd {
+    margin-bottom: 10px;
+  }
 }
