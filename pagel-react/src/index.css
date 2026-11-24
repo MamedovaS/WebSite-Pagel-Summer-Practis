@@ -30,6 +30,7 @@ button { font-family: inherit; cursor: pointer; }
   align-items: center;
   justify-content: space-between;
   height: 64px;
+  padding: 0 max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px)); /* ???????????? ? ??????? (.fl-row-content: max-width 1140 + padding 20) */
 }
 .site-title a {
   display: flex;
@@ -119,11 +120,19 @@ button { font-family: inherit; cursor: pointer; }
   padding: 0px 0;
 }
 .breadcrumbs-outer .wrap {
+  padding: 0 max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px)); /* ???????????? ? ??????? (.fl-row-content: max-width 1140 + padding 20) */
   font-size: 13px;
   color: #666;
 }
 .breadcrumb { display: flex; align-items: center; gap: 6px; color: #c8102e; }
 .breadcrumb a { color: #c8102e; }
+
+/* ── Вирівнювання контенту сторінок по лого/breadcrumb ── */
+section.fl-row > .wrap,
+.wrap.salesinfo-page {
+  padding-left: max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px));
+  padding-right: max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px));
+}
 
 /* ── Hero Slider ── */
 .hero-slider-section { position: relative; overflow: hidden; background: #1a2332; }
