@@ -145,30 +145,30 @@ const Header = () => {
                     fontSize: 14,
                     padding: '6px 8px'
                   }}>
-                    Продажі
+                    Контакти
                   </Link>
                 </li>
                 
-                {/* Мова */}
-                <li style={{ position: 'relative' }}>
-                  <span style={{ 
-                    color: '#333', 
-                    fontWeight: 500,
-                    fontSize: 14,
-                    padding: '6px 8px',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: 4
-                  }}>
-                    <img 
-                      src="https://www.pagel.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png" 
-                      alt="Українська" 
-                      style={{ width: 18, height: 12 }}
-                    />
-                    Українська
-                  </span>
-                </li>
+{/*                  */}{/* Мова */}
+{/*                 <li style={{ position: 'relative' }}> */}
+{/*                   <span style={{  */}
+{/*                     color: '#333',  */}
+{/*                     fontWeight: 500, */}
+{/*                     fontSize: 14, */}
+{/*                     padding: '6px 8px', */}
+{/*                     cursor: 'pointer', */}
+{/*                     display: 'flex', */}
+{/*                     alignItems: 'center', */}
+{/*                     gap: 4 */}
+{/*                   }}> */}
+{/*                     <img  */}
+{/*                       src="https://www.pagel.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/uk.png"  */}
+{/*                       alt="Українська"  */}
+{/*                       style={{ width: 18, height: 12 }} */}
+{/*                     /> */}
+{/*                     Українська */}
+{/*                   </span> */}
+{/*                 </li> */}
               </ul>
             </nav>
           </div>

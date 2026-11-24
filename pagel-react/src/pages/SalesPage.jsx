@@ -217,7 +217,7 @@ export default function SalesPage() {
               <div className="salesinfo-card">
                 <h3>Відділ продажів</h3>
                 <p>
-                  Тел.: <a href="tel:+380674416979">+380674416979</a>
+                  Тел.: <a href="tel:+380974416979">+380974416979</a>
                   <br />
                   <a href="mailto:ngroup.ua@gmail.com">ngroup.ua@gmail.com</a>
                 </p>
@@ -231,7 +231,7 @@ export default function SalesPage() {
               </div>
 
               <div className="salesinfo-card">
-                <h3>Робочий час</h3>
+                <h3>Робочі години складу</h3>
                 <p>
                   Робочі дні: пн–пт
                   <br />
@@ -253,7 +253,7 @@ export default function SalesPage() {
                   <br />
                   ТОВ "Н-ГРУП", ЄДРПОУ 39398761
                   <br />
-                  конт. особа: <a href="tel:+380674416979">+380674416979</a>
+                  конт. особа: <a href="tel:+380974416979">+380974416979</a>
                 </p>
               </div>
 

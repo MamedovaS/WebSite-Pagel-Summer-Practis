@@ -13,6 +13,7 @@ import ReferencesPage from './pages/ReferencesPage';
 import IsoPage from './pages/IsoPage';
 import QualityAssurancePage from './pages/QualityAssurancePage';
 import SalesPage from './pages/SalesPage';
+import CustomDevelopmentPage from './pages/CustomDevelopmentPage';
 import ReactionResinsPage from './pages/ReactionsPage';
 import PagelEvolinePage from './pages/PagelEvolinePage';
 import SearchResultsPage from './components/SearchResultsPage'
@@ -54,6 +55,7 @@ export default function App() {
         <Route path="/iso9001-iso14001" element={<IsoPage />} />
         <Route path="/quality-assurance" element={<QualityAssurancePage />} />
         <Route path="/sales" element={<SalesPage />} />
+        <Route path="/custom-product-development" element={<CustomDevelopmentPage />} />
         <Route path="/contact" element={<Placeholder title="Контакти" />} />
         <Route path="/downloads" element={<Placeholder title="Завантаження" />} />
         <Route path="/site-notice" element={<Placeholder title="Правова інформація" />} />

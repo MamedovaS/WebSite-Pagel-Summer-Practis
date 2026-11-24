@@ -16,8 +16,7 @@ const PRODUCTS_ROW2 = [
 
 const FURTHER_TOPICS = [
   { href: 'https://www.pagel.com/all/pdf/en/lieferprogramm_en.pdf', img: 'https://www.pagel.com/wp-content/uploads/2026/03/Lieferprogramm.png', label: 'Асортимент продукції' },
-  { href: 'https://www.pagel.com/de/individuelle-produktentwicklung/', img: 'https://www.pagel.com/wp-content/uploads/2024/03/671-x-671-px.png', label: 'Розробка продукту' },
-  { href: '/downloads', img: 'https://www.pagel.com/wp-content/uploads/2019/02/wp_ds.jpg', label: 'Завантаження' },
+  { href: '/custom-product-development', img: 'https://www.pagel.com/wp-content/uploads/2024/03/671-x-671-px.png', label: 'Розробка продукту' },
   { href: '/innovations', img: 'https://www.pagel.com/wp-content/uploads/2026/03/pagel_innovation_neu_version_alle-Laender.png', label: 'Інновації' },
   { href: '/quality-assurance', img: 'https://www.pagel.com/wp-content/uploads/2024/08/Untitled-100.png', label: 'Контроль якості' },
 ];

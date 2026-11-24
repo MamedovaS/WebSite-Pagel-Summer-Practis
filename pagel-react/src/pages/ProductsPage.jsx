@@ -6,7 +6,7 @@ const PRODUCTS_ROW1 = [
     href: '/products/grout',
     externalHref: 'https://www.pagel.com/en/products/grout/',
     img: 'https://www.pagel.com/wp-content/uploads/2020/12/wp_verguss.jpg',
-    label: 'Заливальні розчини',
+    label: 'Розчини для заливки',
   },
   {
     href: '/products/concrete-repair',
@@ -118,19 +118,6 @@ export default function ProductsPage() {
               </p>
             </div>
 
-            {/* Search */}
-            <div className="search-wrap">
-              <form role="search" onSubmit={handleSearch}>
-                <input
-                  type="search"
-                  name="s"
-                  placeholder="Що ви шукаєте?"
-                  aria-label="Пошук продуктів"
-                />
-                <button type="submit">Пошук</button>
-              </form>
-            </div>
-
             {/* Products row 1 */}
             <div className="product-grid">
               {PRODUCTS_ROW1.map((p) => (
@@ -144,20 +131,6 @@ export default function ProductsPage() {
                 <ProductCard key={p.href} item={p} />
               ))}
             </div>
-
-            {/* Separator + Documents section */}
-            <div className="fl-separator" style={{ marginTop: 48 }} />
-
-            <h2 className="section-heading">Документи та контакт</h2>
-
-            <div className="product-grid">
-              {DOCS_ROW.map((p) => (
-                <ProductCard key={p.href} item={p} />
-              ))}
-              {/* empty third cell to keep 3-col grid */}
-              <div />
-            </div>
-
           </div>
         </section>
       </article>

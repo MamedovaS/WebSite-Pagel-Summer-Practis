@@ -8,6 +8,8 @@ body {
   line-height: 1.6;
 }
 
+html { scroll-behavior: smooth; scroll-padding-top: 88px; } /* компенсує sticky-хедер (64px) при переході по якорях */
+
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; height: auto; display: block; }
 ul { list-style: none; }
@@ -451,6 +453,17 @@ section.fl-row > .wrap,
 .sales-col p { font-size: 13px; line-height: 1.7; color: rgba(255, 255, 255, 0.85); margin-bottom: 6px; }
 .sales-col a { color: #ffffff; text-decoration: underline; font-size: 13px; }
 .sales-col a:hover { color: rgba(255, 255, 255, 0.75); }
+.sales-col > :first-child { margin-top: 0; }
+.sales-title { font-size: 22px; font-weight: 700; color: #ffffff; margin-bottom: 20px; }
+
+/* Вирівнювання футера по лого/breadcrumb/тексту сторінок */
+.sales-section .wrap,
+.footer-widgets .wrap,
+.site-footer .wrap {
+  padding-left: max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px));
+  padding-right: max(20px, calc((min(100%, 1200px) - 1140px) / 2 + 20px));
+}
+.site-footer .wrap { text-align: left; }
 
 .footer-widgets {
   background: #c8102e;
