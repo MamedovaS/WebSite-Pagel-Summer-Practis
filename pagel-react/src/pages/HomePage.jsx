@@ -51,7 +51,7 @@ export default function HomePage() {
       <div className="breadcrumbs-outer">
         <div className="wrap">
           <div className="breadcrumb">
-            <a href="/">&#8962; Н-груп</a>
+            <a href="/">PAGEL</a>
           </div>
         </div>
       </div>

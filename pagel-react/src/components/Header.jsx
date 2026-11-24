@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SearchBar from './SearchBar';
-import logo from '../components/logo.svg';
+import logo from '../media/PAGEL-Ukraine.png';
 
 const companyLinks = [
   { to: '/innovations', label: 'Інновації' },
