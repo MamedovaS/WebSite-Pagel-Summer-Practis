@@ -117,7 +117,7 @@ const ProductPage = () => {
                                 </div>
                               </div>
                               {product.category === 'grout' && (
-                                <div className="fl-module fl-module-rich-text">
+                                <div className="fl-module fl-module-rich-text product-certs-module">
                                   <div className="fl-rich-text">
                                     <div className="product-certs">
                                       <img 

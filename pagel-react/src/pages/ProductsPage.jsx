@@ -90,7 +90,7 @@ export default function ProductsPage() {
   };
 
   return (
-    <main className="site-inner">
+    <main className="site-inner products-page">
       <div className="breadcrumbs-outer">
         <div className="wrap">
           <div className="breadcrumb">
@@ -106,14 +106,14 @@ export default function ProductsPage() {
           <div className="wrap">
 
             {/* Page header */}
-            <div style={{ marginBottom: 32 }}>
-              <p style={{ fontSize: 13, color: '#888', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>
+            <div className="products-header">
+              <p className="products-eyebrow">
                 Огляд продукції
               </p>
-              <h1 style={{ fontSize: 'clamp(24px, 4vw, 36px)', fontWeight: 700, marginBottom: 16, color: '#1a1a1a' }}>
+              <h1 className="products-title">
                 Наш асортимент продукції
               </h1>
-              <p style={{ fontSize: 15, color: '#555', lineHeight: 1.7, maxWidth: 640 }}>
+              <p className="products-intro">
                 PAGEL пропонує широкий асортимент високоякісних продуктів. В огляді продукції ви легко знайдете будь-які специфікації, що вас цікавлять.
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function ProductsPage() {
             </div>
 
             {/* Products row 2 */}
-            <div className="product-grid" style={{ marginTop: 20 }}>
+            <div className="product-grid products-row2">
               {PRODUCTS_ROW2.map((p) => (
                 <ProductCard key={p.href} item={p} />
               ))}

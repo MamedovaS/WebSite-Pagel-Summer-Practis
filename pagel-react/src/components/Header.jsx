@@ -1,6 +1,6 @@
 // src/components/Header.jsx
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import SearchBar from './SearchBar';
 import logo from '../media/PAGEL-Ukraine.png';
 
@@ -13,6 +13,26 @@ const companyLinks = [
 
 const Header = () => {
   const [companyOpen, setCompanyOpen] = useState(false);
+  // Мобільне меню (гамбургер)
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileCompanyOpen, setMobileCompanyOpen] = useState(false);
+  const location = useLocation();
+
+  // Закриваємо мобільне меню при переході на іншу сторінку
+  useEffect(() => {
+    setMobileOpen(false);
+    setMobileCompanyOpen(false);
+  }, [location.pathname]);
+
+  // Закриття меню клавішею Escape
+  useEffect(() => {
+    if (!mobileOpen) return undefined;
+    const onKey = (e) => {
+      if (e.key === 'Escape') setMobileOpen(false);
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [mobileOpen]);
 
   return (
     <header className="site-header">
@@ -20,11 +40,26 @@ const Header = () => {
         <div className="title-area">
           <p className="site-title">
            <Link to="/">
-             <img src={logo} className="site-logo" />
+             <img src={logo} className="site-logo" alt="PAGEL Ukraine" />
            </Link>
           </p>
         </div>
-        <div className="widget-area header-widget-area">
+
+        {/* Кнопка-гамбургер (видима лише на мобільних) */}
+        <button
+          type="button"
+          className={`mobile-menu-toggle${mobileOpen ? ' is-open' : ''}`}
+          aria-label={mobileOpen ? 'Закрити меню' : 'Відкрити меню'}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-menu"
+          onClick={() => setMobileOpen((v) => !v)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+
+        <div className="widget-area header-widget-area header-desktop">
           <div style={{ 
             display: 'flex', 
             alignItems: 'center', 
@@ -174,6 +209,43 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      {/* Мобільне меню: пошук + навігація */}
+      {mobileOpen && (
+        <nav id="mobile-menu" className="mobile-menu" aria-label="Головне меню">
+          <div className="mobile-menu-search">
+            <SearchBar />
+          </div>
+          <ul className="mobile-menu-list">
+            <li>
+              <Link to="/products">Продукти</Link>
+            </li>
+            <li>
+              <button
+                type="button"
+                className="mobile-menu-accordion"
+                aria-expanded={mobileCompanyOpen}
+                onClick={() => setMobileCompanyOpen((v) => !v)}
+              >
+                Компанія
+                <span className={`mobile-menu-caret${mobileCompanyOpen ? ' is-open' : ''}`} aria-hidden="true" />
+              </button>
+              {mobileCompanyOpen && (
+                <ul className="mobile-menu-sub">
+                  {companyLinks.map((item) => (
+                    <li key={item.to}>
+                      <Link to={item.to}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+            <li>
+              <Link to="/sales">Контакти</Link>
+            </li>
+          </ul>
+        </nav>
+      )}
     </header>
   );
 };

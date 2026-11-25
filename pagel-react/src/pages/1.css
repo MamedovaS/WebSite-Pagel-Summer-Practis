@@ -787,3 +787,151 @@ h2.fl-heading .fl-heading-text {
     gap: 24px;
   }
 }
+
+/* Мобільна версія: у блоці technicalData не показуємо першу колонку (features) */
+@media (max-width: 768px) {
+  .product-page .fl-col-group.technicalData > .fl-col:first-child,
+  .product-page .fl-col-group.line,
+  .product-page .product-certs-module {
+    display: none;
+  }
+
+  /* Колонки стоять одна під одною: flex-basis 300px став би мінімальною висотою, тож скидаємо його */
+  .product-page .fl-col-group.technicalData > .fl-col,
+  .product-page .fl-col-group.image-block > .fl-col {
+    flex: 0 0 auto;
+  }
+
+  /* Менший проміжок між зображенням продукту і блоком документів під ним */
+  .product-page .fl-col-group.image-block {
+    gap: 16px;
+  }
+}
+
+/* Розрив між останнім текстом і footer: прибираємо хвостові відступи останньої групи */
+.product-page .fl-col-group:last-child {
+  margin-bottom: 0;
+}
+
+.product-page .fl-col-group:last-child .fl-rich-text ul {
+  margin-bottom: 0;
+}
+
+.product-page .fl-col-group:last-child .fl-rich-text li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  /* Колонки останньої групи без мінімальної висоти 300px (flex-basis) */
+  .product-page .fl-col-group:last-child > .fl-col {
+    flex: 0 0 auto;
+  }
+}
+
+/* Відстань між зображенням продукту і наступним блоком */
+.product-page .fl-col-group.image-block {
+  margin-bottom: 8px;
+}
+
+/* Сторінка категорії (grout), мобільна версія: менша відстань між зображенням розділу
+   (Стандартний / Швидкотвердіючий / Високоміцний / Спеціальні) та текстом під ним.
+   Без цього flex-basis 300px робить колонку із зображенням висотою 300px. */
+@media (max-width: 768px) {
+  .grout-page .fl-col-group.category-intro {
+    gap: 12px;
+  }
+
+  .grout-page .fl-col-group.category-intro > .fl-col {
+    flex: 0 0 auto;
+  }
+}
+
+/* ===========================================================
+   Сторінка /products
+   Базові значення = колишні inline-стилі (десктоп без змін),
+   нижче — компактніша мобільна версія.
+   =========================================================== */
+
+.products-page .products-header {
+  margin-bottom: 32px;
+}
+
+.products-page .products-eyebrow {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.products-page .products-title {
+  margin-bottom: 16px;
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.products-page .products-intro {
+  max-width: 640px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.products-page .products-row2 {
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .products-page .fl-row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .products-page .products-header {
+    margin-bottom: 20px;
+  }
+
+  .products-page .products-eyebrow {
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .products-page .products-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .products-page .products-intro {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .products-page .product-grid {
+    gap: 12px;
+  }
+
+  .products-page .products-row2 {
+    margin-top: 12px;
+  }
+
+  .products-page .product-item img {
+    height: 140px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+
+  .products-page .product-caption {
+    padding: 10px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
+
+/* Сторінка категорії (grout), мобільна версія: ховаємо другорядні тексти */
+@media (max-width: 768px) {
+  .grout-page .hide-on-mobile {
+    display: none;
+  }
+}

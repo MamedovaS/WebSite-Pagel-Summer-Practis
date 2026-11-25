@@ -267,7 +267,7 @@ export const productsData = {
   'v1-10': {
     id: 'v1-10',
     slug: 'v1-10',
-    title: 'V1/10 PAGEL-розчин для заливання',
+    title: 'V1/10 PAGEL розчин для заливання',
     subtitle: 'Високотекучий набухаючий розчин для заливання з високою початковою та кінцевою міцністю, згідно з директивою DAfStb VeBMR',
     category: 'grout',
     subcategory: 'standard',
@@ -332,7 +332,7 @@ export const productsData = {
   'v1-50': {
     id: 'v1-50',
     slug: 'v1-50',
-    title: 'V1/50 PAGEL-розчин для заливання',
+    title: 'V1/50 PAGEL розчин для заливання',
     subtitle: 'Високотекучий набухаючий розчин для заливання з високою міцністю',
     category: 'grout',
     subcategory: 'standard',
@@ -386,7 +386,7 @@ export const productsData = {
   'v1-80': {
     id: 'v1-80',
     slug: 'v1-80',
-    title: 'V1/80 PAGEL-розчин для заливання',
+    title: 'V1/80 PAGEL розчин для заливання',
     subtitle: 'Високотекучий набухаючий розчин для великих зазорів',
     category: 'grout',
     subcategory: 'standard',
@@ -435,7 +435,7 @@ export const productsData = {
   'v1-160': {
     id: 'v1-160',
     slug: 'v1-160',
-    title: 'V1/160 PAGEL-розчин для заливання',
+    title: 'V1/160 PAGEL розчин для заливання',
     subtitle: 'Високотекучий набухаючий розчин для великих висот заливання',
     category: 'grout',
     subcategory: 'standard',
