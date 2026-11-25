@@ -259,7 +259,6 @@ section.fl-row > .wrap,
 
 /* ── Main Content ── */
 .site-inner { flex: 1; }
-.entry-content { padding: 0 0 40px; }
 .fl-row { margin-bottom: 0px; }
 
 /* ── Section Headings ── */
@@ -425,7 +424,7 @@ section.fl-row > .wrap,
 .bb-slider-next { right: 22px; }
 
 /* ── Separator ── */
-.fl-separator { border-top: 1px solid #e5e5e5; margin: 8px 0 32px; }
+.fl-separator { border-top: 1px solid #e5e5e5; margin: 1px 0 1px; }
 
 /* ── Further Topics ── */
 .further-grid {

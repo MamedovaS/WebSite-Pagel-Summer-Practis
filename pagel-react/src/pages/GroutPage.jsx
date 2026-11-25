@@ -37,7 +37,7 @@ const ProductCategory = ({ id, title, image, description, products }) => {
           <div className="fl-col-group">
             <div className="fl-col fl-col-bg-color">
               <div className="fl-module fl-module-heading">
-                <h2 className="fl-heading">
+                <h2 className="fl-heading fl-heading-products">
                   <span className="fl-heading-text">
                     Наш вибір продуктів у категорії {title.toLowerCase()}:
                   </span>
@@ -110,7 +110,7 @@ const GroutPage = () => {
     <>
       <Breadcrumbs items={breadcrumbItems} />
       
-      <div className="site-inner">
+      <div className="site-inner grout-page">
         <div className="wrap">
           <div className="content-sidebar-wrap">
             <main className="content">

@@ -35,7 +35,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH1 Епоксидна ґрунтовка/сполучний матеріал' }
+      { label: 'EH1' }
     ]
   },
  
@@ -72,7 +72,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH115 Епоксидна ґрунтовка/сполучний матеріал' }
+      { label: 'EH115' }
     ]
   },
  
@@ -110,7 +110,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH2 Епоксидний розчин' }
+      { label: 'EH2' }
     ]
   },
  
@@ -147,7 +147,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH192 Епоксидний розчин' }
+      { label: 'EH192' }
     ]
   },
  
@@ -185,7 +185,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH196R Епоксидний розчин для заливання' }
+      { label: 'EH196R' }
     ]
   },
  
@@ -220,7 +220,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH196S Епоксидний розчин для заливання' }
+      { label: 'EH196S' }
     ]
   },
  
@@ -255,7 +255,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Реакційні смоли', link: '/products/reaction-resins' },
-      { label: 'EH Очищувач/розчинник' }
+      { label: 'EH' }
     ]
   },
  
@@ -325,7 +325,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V1/10 PAGEL-розчин для заливання' }
+      { label: 'V1/10' }
     ]
   },
 
@@ -379,7 +379,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V1/50 PAGEL-розчин для заливання' }
+      { label: 'V1/50' }
     ]
   },
 
@@ -428,7 +428,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V1/80 PAGEL-розчин для заливання' }
+      { label: 'V1/80' }
     ]
   },
 
@@ -477,7 +477,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V1/160 PAGEL-розчин для заливання' }
+      { label: 'V1/160' }
     ]
   },
 
@@ -524,7 +524,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V80C45 Бетон для заливання' }
+      { label: 'V80C45' }
     ]
   },
 
@@ -571,7 +571,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V160C45 Бетон для заливання' }
+      { label: 'V160C45' }
     ]
   },
 
@@ -613,7 +613,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V14/10 Розчин для підливки' }
+      { label: 'V14/10' }
     ]
   },
 
@@ -655,7 +655,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V14/40 Розчин для підливки' }
+      { label: 'V14/40' }
     ]
   },
 
@@ -697,7 +697,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V14/80 Розчин для підливки' }
+      { label: 'V14/80' }
     ]
   },
 
@@ -743,7 +743,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V2/20 Швидкотвердіючий розчин' }
+      { label: 'V2/20' }
     ]
   },
 
@@ -785,7 +785,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V2/50 Швидкотвердіючий розчин' }
+      { label: 'V2/50' }
     ]
   },
 
@@ -827,7 +827,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V2/160 Швидкотвердіючий розчин' }
+      { label: 'V2/160' }
     ]
   },
 
@@ -869,7 +869,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VB20 Блискавичний розчин' }
+      { label: 'VB20' }
     ]
   },
 
@@ -911,7 +911,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VB50 Блискавичний розчин' }
+      { label: 'VB50' }
     ]
   },
 
@@ -953,7 +953,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VT05 Турбо-розчин' }
+      { label: 'VT05' }
     ]
   },
 
@@ -995,7 +995,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VT10 Турбо-розчин' }
+      { label: 'VT10' }
     ]
   },
 
@@ -1040,7 +1040,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'HF10 Високоміцний розчин' }
+      { label: 'HF10' }
     ]
   },
 
@@ -1082,7 +1082,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'HF50 Високоміцний розчин' }
+      { label: 'HF50' }
     ]
   },
 
@@ -1124,7 +1124,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'V1/50HF Високоміцний розчин' }
+      { label: 'V1/50HF' }
     ]
   },
 
@@ -1165,7 +1165,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'E1 Анкерний розчин' }
+      { label: 'E1' }
     ]
   },
 
@@ -1205,7 +1205,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'E1F Анкерний розчин для заливання' }
+      { label: 'E1F' }
     ]
   },
 
@@ -1246,7 +1246,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VS Розчин для заливання' }
+      { label: 'VS' }
     ]
   },
 
@@ -1287,7 +1287,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Розчин для заливання', link: '/products/grout' },
-      { label: 'VS-P Розчин для швів' }
+      { label: 'VS-P' }
     ]
   },
 
@@ -1335,7 +1335,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Ремонт бетону', link: '/products/concrete-repair' },
-      { label: 'RM02 Захист від корозії' }
+      { label: 'RM02' }
     ]
   },
 
@@ -1376,7 +1376,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Ремонт бетону', link: '/products/concrete-repair' },
-      { label: 'MH02 Адгезійний міст' }
+      { label: 'MH02' }
     ]
   },
 
@@ -1420,7 +1420,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Ремонт бетону', link: '/products/concrete-repair' },
-      { label: 'CM20 Конструктивний ремонтний розчин' }
+      { label: 'CM20' }
     ]
   },
 
@@ -1464,7 +1464,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Ремонт бетону', link: '/products/concrete-repair' },
-      { label: 'RM20 Ремонтний розчин' }
+      { label: 'RM20' }
     ]
   },
 
@@ -1508,7 +1508,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Ремонт бетону', link: '/products/concrete-repair' },
-      { label: 'TW05 Розчин для питної води' }
+      { label: 'TW05' }
     ]
   },
 
@@ -1557,7 +1557,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Промислові підлоги', link: '/products/industrial-floors' },
-      { label: 'IB20 Промислова підлога' }
+      { label: 'IB20' }
     ]
   },
 
@@ -1601,7 +1601,7 @@ export const productsData = {
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
       { label: 'Промислові підлоги', link: '/products/industrial-floors' },
-      { label: 'RB50 Ремонтний бетон' }
+      { label: 'RB50' }
     ]
   }
 };

@@ -55,52 +55,27 @@ const ProductPage = () => {
     );
   }
 
-  // Визначаємо URL для повернення до категорії
-  const categoryUrls = {
-    'grout': '/products/grout',
-    'concrete-repair': '/products/concrete-repair',
-    'industrial-floors': '/products/industrial-floors',
-    'reaction-resins': '/products/reaction-resins'
-  };
-
-  const categoryLabels = {
-    'grout': 'Розчин для заливання',
-    'concrete-repair': 'Ремонт бетону',
-    'industrial-floors': 'Промислові підлоги',
-    'reaction-resins': 'Реакційні смоли'
-  };
-
   return (
     <>
       <Breadcrumbs items={product.breadcrumbs} />
       
-      <div className="site-inner">
+      <div className="site-inner product-page">
         <div className="wrap">
           <div className="content-sidebar-wrap">
             <main className="content">
               <article className="entry">
                 <div className="entry-content">
                   <div className="fl-builder-content">
-                    <div className="fl-row fl-row-fixed-width fl-row-bg-none" style={{ paddingTop: 0 }}>
+                    <div className="fl-row fl-row-fixed-width fl-row-bg-none" style={{ paddingTop: 16 }}>
                       <div className="fl-row-content-wrap">
                         <div className="fl-row-content fl-row-full-width fl-node-content">
-                          
-                          {/* Посилання назад до категорії */}
-                          <div style={{ marginBottom: 20 }}>
-                            <Link 
-                              to={categoryUrls[product.category] || '/products'} 
-                              style={{ color: '#c8102e', textDecoration: 'none' }}
-                            >
-                              ← Повернутися до {categoryLabels[product.category] || 'категорії'}
-                            </Link>
-                          </div>
                           
                           {/* Заголовок */}
                           <div className="fl-col-group">
                             <div className="fl-col fl-col-bg-color">
                               <div className="fl-module fl-module-rich-text">
                                 <div className="fl-rich-text">
-                                  <h1>{product.title}</h1>
+                                  <h1 className="product-title">{product.title}</h1>
                                 </div>
                               </div>
                             </div>
@@ -111,14 +86,14 @@ const ProductPage = () => {
                             <div className="fl-col fl-col-bg-color">
                               <div className="fl-module fl-module-rich-text">
                                 <div className="fl-rich-text">
-                                  <h2>{product.subtitle}</h2>
+                                  <h2 className="product-subtitle">{product.subtitle}</h2>
                                 </div>
                               </div>
                             </div>
                           </div>
 
                           {/* Характеристики та технічні дані */}
-                          <div className="fl-col-group">
+                          <div className="fl-col-group technicalData">
                             <div className="fl-col fl-col-bg-color fl-col-small">
                               <div className="fl-module fl-module-rich-text entry-content">
                                 <div className="fl-rich-text">
@@ -130,9 +105,9 @@ const ProductPage = () => {
                                 </div>
                               </div>
                             </div>
-                            
+
                             <div className="fl-col fl-col-bg-color fl-col-small">
-                              <div className="fl-module fl-module-rich-text entry-content">
+                              <div className={`fl-module fl-module-rich-text entry-content${product.category === 'grout' ? ' before-certs' : ''}`}>
                                 <div className="fl-rich-text">
                                   <ul>
                                     {product.technicalData?.map((data, index) => (
@@ -144,18 +119,18 @@ const ProductPage = () => {
                               {product.category === 'grout' && (
                                 <div className="fl-module fl-module-rich-text">
                                   <div className="fl-rich-text">
-                                    <div>
+                                    <div className="product-certs">
                                       <img 
                                         decoding="async" 
                                         src="https://www.pagel.com/wp-content/images/logos/ce.jpg" 
                                         alt="CE маркування" 
-                                        style={{ maxWidth: 80, marginRight: 10 }}
+                                        style={{ maxWidth: 45 }}
                                       />
                                       <img 
                                         decoding="async" 
                                         src="https://www.pagel.com/wp-content/images/logos/ue_qdb.jpg" 
                                         alt="Сертифікат відповідності DAfStb/VeBMR" 
-                                        style={{ maxWidth: 80 }}
+                                        style={{ maxWidth: 45 }}
                                       />
                                     </div>
                                   </div>
@@ -165,7 +140,7 @@ const ProductPage = () => {
                           </div>
 
                           {/* Роздільник */}
-                          <div className="fl-col-group">
+                          <div className="fl-col-group line">
                             <div className="fl-col fl-col-bg-color">
                               <div className="fl-module fl-module-separator">
                                 <div className="fl-separator"></div>
@@ -174,7 +149,7 @@ const ProductPage = () => {
                           </div>
 
                           {/* Зображення та завантаження */}
-                          <div className="fl-col-group">
+                          <div className="fl-col-group image-block">
                             <div className="fl-col fl-col-bg-color fl-col-small">
                               <div className="fl-module fl-module-rich-text">
                                 <div className="fl-rich-text">
@@ -194,7 +169,7 @@ const ProductPage = () => {
                               {product.downloads?.technicalSheet && (
                                 <div className="fl-module fl-module-rich-text">
                                   <div className="fl-rich-text">
-                                    <div style={{ padding: '10px 20px 10px 15px', border: '1px solid #e5e5e5', marginBottom: 10 }}>
+                                    <div className="download-link">
                                       <a 
                                         href={product.downloads.technicalSheet} 
                                         target="_blank" 
@@ -210,7 +185,7 @@ const ProductPage = () => {
                               {product.downloads?.safetyDataSheet && (
                                 <div className="fl-module fl-module-rich-text">
                                   <div className="fl-rich-text">
-                                    <div style={{ padding: '10px 20px 10px 15px', border: '1px solid #e5e5e5', marginBottom: 10 }}>
+                                    <div className="download-link">
                                       <a 
                                         href={product.downloads.safetyDataSheet} 
                                         target="_blank" 
