@@ -1,3 +1,8 @@
+import v1TechnicalSheet from '../instructions/V1_10_50_160.pdf';
+import RM20TechnicalSheet from '../instructions/RM_20.pdf';
+import RM02TechnicalSheet from '../instructions/RM02 MS02.pdf';
+import RM05TechnicalSheet from '../instructions/RM_05.pdf';
+
 // src/data/products.js
 
 export const productsData = {
@@ -316,7 +321,7 @@ export const productsData = {
       'Трубні проходки в каналізаціях, очисних спорудах та ємностях для питної води'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: v1TechnicalSheet,
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf',
       declarationOfPerformance: 'https://www.pagel.com/all/pdf/dop/en/v1_10_dop_en1504-6_en.pdf',
       certificate: 'https://www.pagel.com/all/pdf/certificates/en/v1_10_241010_qdb_uez_essen.pdf',
@@ -371,7 +376,7 @@ export const productsData = {
       'Мостові опори'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: v1TechnicalSheet,
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf',
       declarationOfPerformance: 'https://www.pagel.com/all/pdf/dop/en/v1_10_dop_en1504-6_en.pdf',
       certificate: 'https://www.pagel.com/all/pdf/certificates/en/v1_10_241010_qdb_uez_essen.pdf'
@@ -422,7 +427,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_80_en.pdf',
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf'
     },
     breadcrumbs: [
@@ -471,7 +476,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: v1TechnicalSheet,
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf'
     },
     breadcrumbs: [
@@ -518,7 +523,7 @@ export const productsData = {
       'Ремонт промислових конструкцій'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v80c45_en.pdf',
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf'
     },
     breadcrumbs: [
@@ -565,7 +570,7 @@ export const productsData = {
       'Ремонт гідротехнічних споруд'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf',
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v160c45_en.pdf',
       safetyDataSheet: 'https://www.pagel.com/all/pdf/msds/de-en/pagel007-2_msds_de_en.pdf'
     },
     breadcrumbs: [
@@ -608,7 +613,7 @@ export const productsData = {
       'Прецизійне обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v14_10_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -650,7 +655,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v14_40_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -692,7 +697,7 @@ export const productsData = {
       'Кранові рейки'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v14_80_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -738,7 +743,7 @@ export const productsData = {
       'Швидкі ремонтні роботи'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v2_20_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -780,7 +785,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v2_50_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -822,7 +827,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v2_160_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -864,7 +869,7 @@ export const productsData = {
       'Ремонт при низьких температурах'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vb20_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -906,7 +911,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vb50_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -948,7 +953,7 @@ export const productsData = {
       'Прецизійне обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vt05_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -990,7 +995,7 @@ export const productsData = {
       'Промислове обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vt10_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1035,7 +1040,7 @@ export const productsData = {
       'Великі промислові об\'єкти'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/hf10_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1077,7 +1082,7 @@ export const productsData = {
       'Великі промислові об\'єкти'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/hf50_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1119,7 +1124,7 @@ export const productsData = {
       'Вітрові турбіни'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50hf_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1160,7 +1165,7 @@ export const productsData = {
       'Будівельні конструкції'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/e1_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1200,7 +1205,7 @@ export const productsData = {
       'Кріплення обладнання'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/e1f_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1241,7 +1246,7 @@ export const productsData = {
       'Ремонт стиків'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vs_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1282,7 +1287,7 @@ export const productsData = {
       'Герметизація стиків'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/vs_p_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1330,7 +1335,7 @@ export const productsData = {
       'Підготовка поверхні перед ремонтом'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: RM02TechnicalSheet
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1371,7 +1376,7 @@ export const productsData = {
       'Підготовка поверхні'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: RM02TechnicalSheet
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1415,7 +1420,7 @@ export const productsData = {
       'Ремонт балок, колон, перекриттів'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/cm20_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1459,7 +1464,7 @@ export const productsData = {
       'Ремонт стін та стель'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: RM20TechnicalSheet
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1503,7 +1508,7 @@ export const productsData = {
       'Водопровідні споруди'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/tw05_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1552,7 +1557,7 @@ export const productsData = {
       'Промислові приміщення'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/ib20_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },
@@ -1596,7 +1601,7 @@ export const productsData = {
       'Ремонт складських приміщень'
     ],
     downloads: {
-      technicalSheet: 'https://www.pagel.com/all/pdf/en/v1_50_en.pdf'
+      technicalSheet: 'https://www.pagel.com/all/pdf/en/rb50_en.pdf'
     },
     breadcrumbs: [
       { label: 'Продукти', link: '/products' },

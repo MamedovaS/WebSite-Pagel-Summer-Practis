@@ -935,3 +935,25 @@ h2.fl-heading .fl-heading-text {
     display: none;
   }
 }
+
+/* Картки продуктів зі стислим описом (сторінка «Ремонт бетону») */
+.grout-page .fl-post-grid-desc {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--pagel-muted);
+}
+
+/* Картка без сторінки продукту: без ефекту «посилання» при наведенні */
+.grout-page .fl-post-grid-post.no-link:hover {
+  border-color: var(--pagel-border);
+  box-shadow: none;
+}
+
+/* Навігація по напрямах: 6 зображень у сітці 3×2 (на десктопі) */
+@media (min-width: 769px) {
+  .grout-page .fl-col-group-nested.nav-grid-3 > .fl-col {
+    flex: 0 0 calc((100% - 48px) / 3);
+    min-width: 0;
+  }
+}
